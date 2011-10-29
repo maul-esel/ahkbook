@@ -1,6 +1,6 @@
 ---
 title: Introduction
-permalink: /en/Introduction
+permalink: /en/Introduction.html
 ---
 
 # Introduction
