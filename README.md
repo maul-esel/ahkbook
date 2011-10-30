@@ -3,10 +3,11 @@ Information on this project can be found on its [start page](http://maul-esel.gi
 ## Contributing
 Please help me with this project. Add your posts, ideas, knowledge, experience to help AutoHotkey beginners, and to provide a reference for advanced users!
 
-To contribute, you should
-* PM me on github or in the AutoHotkey forums
+To contribute, do the following:
 
-* if you're on github, fork the project
+* if you're on github:
+	* PM me on github or in the AutoHotkey forums
+	* fork the project
 	* change the `url` setting in `_config.yml` to `'http://[your username].github.com/ahkbook'`
 	* do your changes and additions, optionally creating new branches
 	* test if it works
