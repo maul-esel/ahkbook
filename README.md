@@ -1,7 +1,7 @@
 Information on this project can be found on its [start page](http://maul-esel.github.com/ahkbook/en/Introduction).
 
 ## Contributing
-Please help me with this project. Add your posts, ideas, knowledge, experience to help AutoHotkey beginners, and to provide a refernce for advanced users!
+Please help me with this project. Add your posts, ideas, knowledge, experience to help AutoHotkey beginners, and to provide a reference for advanced users!
 
 To contribute, you should
 * PM me on github or in the AutoHotkey forums
