@@ -23,22 +23,29 @@ DllCall("MyFunction", "ptr", ptr) {% endhighlight %}
 Anyone else who has (even minor) questions /suggestions / improvements, PM me at the (german or english) AHK forum or at github!
 
 ## Index:
+***Note:*** This list and its order are not set in stone. Feel free to change then.
+
 * [What AutoHotkey version to choose?](What-Version-To-Choose.html)
 * [Coding Environment](Coding-Environment.html)
 * [First steps]()
 * [Compiling a script](Compiling.html)
 * [Hotkeys & Co.]()
+* [Basic User Interaction: MsgBox & co.]()
 * [Expressional vs. Traditional]()
+* [DllCalls to Windows API]()
 * [GUI stuff]()
 * [custom GUI controls]()
-  * including embedding browser in GUI
-* Documenting your code
-  * NDocs, GenDocs
+    * embedding browser in GUI etc.
+* [Documenting your code]()
+    * NDocs, GenDocs
 * [COM: StdLib & native]()
 * [COM: automating IE]()
 * [COM: automating Office]()
 * [COM: interfaces]()
+* [Into the web: HttpRequests, httpQuery(), downloading and more]
 * [Classes]()
-* [CWindow library]()
-  * C# converter
-* [gdi+]()
+* [More Gui Stuff]()
+    * [CWindow library]()
+        * C# converter
+	* [Aero Library]()
+    * [gdi+]()
