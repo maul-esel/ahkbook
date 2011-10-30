@@ -22,4 +22,4 @@ DllCall("MyFunction", "ptr", ptr) {% endhighlight %}
 Anyone else who has (even minor) questions /suggestions / improvements, PM me at the (german or english) AHK forum or at github!
 
 ## Index:
-no posts here yet
+* [What AutoHotkey version to choose?](What-Version-To-Choose.html)
