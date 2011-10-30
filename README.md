@@ -25,6 +25,7 @@ You can write your posts in HTML, Markdown (like this file) or Textile.
 AutoHotkey syntax highlighting via `{% highlighting ahk %}` currently doesn't work. I created an issue on Jekyll to address this. If anyone (a Ruby programmer) knows how to fix this, please do so and send the author a pull request.
 
 Issues:
+
 * [UTF-8](https://github.com/mojombo/jekyll/issues/429)
 * [AHK Syntax](https://github.com/mojombo/jekyll/issues/428)
 * [GFM](https://github.com/mojombo/jekyll/issues/427)
