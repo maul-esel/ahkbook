@@ -1,5 +1,14 @@
 body {
-	padding: 5px
+	padding: 5px;
+	font-family: Calibri, 'MS Sans Serif', sans-serif;
+}
+
+h1 {
+	text-align: center
+}
+
+h2 {
+	margin-left: 20%
 }
 
 p {
