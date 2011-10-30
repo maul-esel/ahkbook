@@ -1,0 +1,35 @@
+body {
+	padding: 5px
+}
+
+p {
+	text-align: justify;
+	margin-left: 25%;
+	margin-right: 25%
+}
+
+a:link, a:visited {
+	color: darkblue;
+	font-weight: bold
+}
+
+a:hover, a:focus {
+	text-decoration: underline
+}
+
+cite {
+	font-style: italic
+}
+
+cite:before, cite:after {
+	content: '"'
+}
+
+blockquote {
+	padding: 5px;
+	background-color: lightgray
+}
+
+blockquote:first-letter {
+	font-size: 120%
+}

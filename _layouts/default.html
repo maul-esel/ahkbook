@@ -3,6 +3,8 @@
 	<head>
 		<title>{{ page.title }}</title>
 		
+		<link rel='stylesheet' type='text/css' href='/css/default.css'/>
+
 		{% for css in page.css_files %}
 			<link rel='stylesheet' type='text/css' href='/css/{{ css }}.css'/>
 		{% endfor %}
