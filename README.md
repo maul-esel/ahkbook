@@ -15,7 +15,7 @@ To contribute, you should
 
 * add your posts
 * improve and complete existing posts
-* translate posts in other languages
+* translate posts in other languages (place them in a corresponding folder, such as `de/_posts` or `fr/_posts`).
 
 ### Important note:
 This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme). Check it out before contributing.
