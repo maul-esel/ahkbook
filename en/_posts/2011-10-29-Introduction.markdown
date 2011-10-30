@@ -24,3 +24,4 @@ Anyone else who has (even minor) questions /suggestions / improvements, PM me at
 
 ## Index:
 * [What AutoHotkey version to choose?](What-Version-To-Choose.html)
+* [Compiling a script](Compiling.html)
