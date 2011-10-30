@@ -19,7 +19,7 @@ AutoHotkey_L has hundreds of new features, such as Arrays / Objects + classes (w
 AutoHotkey_L is offered in an ANSI and an Unicode version. This describes a different script encoding. You may not know a lot about it, but Unicode often makes dealing with advanced topics (Windows API), but also hotkeys with special characters (ä, ö, ü, ß, Ø, Њ, ڵ, ...) easier. On the other side, *some* old scripts from the forum might have minor issues.
 
 ## IronAHK
-This fork is a complete rewrite of AutoHotkey classic in C# (by polyethene and other contributors), which will enable cross-platform AutoHotkey. You'll be able to compile scripts into regular .NET assemblies, plus it will offer new features such as Arrays / Objects and Unicode. It requires (of course) the .NET framework or Mono to be installed.
+This fork is a complete rewrite of AutoHotkey classic in C# (by polyethene and other contributors), which will enable cross-platform AutoHotkey. You'll be able to compile scripts into regular .NET assemblies, plus it will offer new features such as Arrays / Objects and Unicode. It requires (of course) the .NET framework or [Mono](http://www.mono-project.com/Main_Page) to be installed.
 Why the future tense here? Well, IronAHK (or IA) is not yet finished, it's in alpha stage. And unfortunately, development seems to be paused here, too. Many things don't work yet, others produce errors.
 Although it is a very interesting project, currently it is not recommended to install it (as a beginner).
 
