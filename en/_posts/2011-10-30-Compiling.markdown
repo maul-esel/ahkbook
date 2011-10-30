@@ -5,7 +5,7 @@ permalink: /en/Compiling.html
 ---
 
 # Compiling scripts
-All AutoHotkey versions offer you the possibility to "compile" a script, to turn it into a *.exe file that runs without AutoHotkey.exe.
+All AutoHotkey versions offer you the possibility to "compile" a script, to turn it into a \*.exe file that runs without AutoHotkey.exe.
 However, this is not a real compilation: The script code is **not** translated into binary code itself.
 Instead, the compiler (Ahk2Exe.exe) just packs the script code together with a special version of AutoHotkey (AutoHotkeySC.bin) into a file. When this is executed, the included parser executes the script.
 
