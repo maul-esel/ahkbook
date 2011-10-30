@@ -1,3 +1,25 @@
-This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme).
+Information on this project can be found on its [start page](http://maul-esel.github.com/ahkbook/en/Introduction).
 
-[Start Page](http://maul-esel.github.com/ahkbook/en/Introduction)
+## Contributing
+Please help me with this project. Add your posts, ideas, knowledge, experience to help AutoHotkey beginners, and to provide a refernce for advanced users!
+
+To contribute, you should
+* PM me on github or in the AutoHotkey forums
+
+* if you're on github, fork the project
+	* change the `url` setting in `_config.yml` to `'http://[your username].github.com/ahkbook'`
+	* do your changes and additions, optionally creating new branches
+	* test if it works
+	* send me a pull request when you're done
+* otherwise send me your comments, ideas, patches, ... via the forum or PM
+
+* add your posts
+* improve and complete existing posts
+* translate posts in other languages
+
+### Important note:
+This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme). Check it out before contributing.
+You can write your posts in HTML, Markdown (like this file) or Textile.
+
+### Another important note:
+AutoHotkey syntax highlighting via `{% highlighting ahk %}` currently doesn't work. I created an issue on Jekyll to address this. If anyone (a Ruby programmer) knows how to fix this, please do so and send the author a pull request.
