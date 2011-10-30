@@ -1,6 +1,6 @@
 ﻿---
-title: What version should I use?
-permalink: /en/What-Version-To-Use.html
+title: What AutoHotkey version should I choose?
+permalink: /en/What-Version-To-Choose.html
 ---
 
 # What to choose?
