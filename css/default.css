@@ -17,6 +17,11 @@ p, ol, ul, blockquote {
 	margin-right: 25%
 }
 
+li p {
+	margin-left: 5px;
+	margin-right: 5px
+}
+
 a:link, a:visited {
 	color: darkblue;
 	font-weight: bold;
