@@ -10,6 +10,7 @@ To contribute, do the following:
 	* fork the project
 	* change the `url` setting in `_config.yml` to `'http://[your username].github.com/ahkbook'`
 	* do your changes and additions, optionally creating new branches
+ 	* if you have access to a Linux / Ubuntu / ... system or VM, ***consider*** installing Jekyll locally
 	* test if it works
 	* send me a pull request when you're done
 * otherwise send me your comments, ideas, patches, ... via the forum or PM
