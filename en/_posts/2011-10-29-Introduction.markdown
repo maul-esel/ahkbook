@@ -30,36 +30,36 @@ Anyone else who has (even minor) questions /suggestions / improvements, PM me at
 2. [Coding Environment](Coding-Environment.html)
 3. [First steps]()
 4. [Compiling a script](Compiling.html)
-- - -
+
 5. [Documenting your code]()
 	- [reasons]()
 	- [tools (NDocs & GenDocs)]()
-- - -
+
 6. [Hotkeys & Co.]()
 7. [Basic User Interaction: MsgBox & co.]()
 8. [GUI stuff]()
-- - -
+
 9. [Expressional vs. Traditional]()
 10. [User-defined and builtin functions]()
-- - -
+
 11. [Into the web: HttpRequests, httpQuery(), downloading and more]()
-- - -
+
 12. [A bit of advanced stuff]()
 	- [DllCalls to Windows API]()
 	- [NumPut, NumGet, VarSetCapacity & stuff]()
-- - -
+
 13. [custom GUI controls]() (+ embedding browser in GUI etc.)
-- - -
-14. COM
+
+14. [COM]()
 	- [a short introduction]()
 	- [StdLib & native COM]()
 	- [automating IE & FF]()
 	- [automating Office]()
 	- [interfaces]()
-- - -
+
 15. [OOP]()
 	- [Classes]()
-- - -
+
 16. [Libraries]()
     - [CWindow library]() (+ C# converter)
 	- [Aero Library]()
