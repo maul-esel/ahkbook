@@ -1,7 +1,7 @@
 ﻿---
 title: "What AutoHotkey version should I choose?"
 layout: default
-permalink: "/en/What-Version-To-Choose.html"
+permalink: '/en/What-Version-To-Choose.html'
 ---
 
 # What to choose?
