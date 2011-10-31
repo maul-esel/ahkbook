@@ -13,13 +13,11 @@ h2 {
 
 p, ol, ul, blockquote {
 	text-align: justify;
-	margin-left: 25%;
-	margin-right: 25%
 }
 
-li p {
-	margin-left: 5px;
-	margin-right: 5px
+body p, body ol, body ul, body blockquote {
+	margin-left: 25%;
+	margin-right: 25%
 }
 
 a:link, a:visited {
