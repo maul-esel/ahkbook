@@ -1,6 +1,7 @@
 body {
 	padding: 5px;
 	font-family: Calibri, 'MS Sans Serif', sans-serif;
+	text-align: justify
 }
 
 h1 {
@@ -15,7 +16,7 @@ p, ol, ul, blockquote {
 	text-align: justify;
 }
 
-body p, body ol, body ul, body blockquote {
+body > p, body > ol, body > ul, body > blockquote {
 	margin-left: 25%;
 	margin-right: 25%
 }
