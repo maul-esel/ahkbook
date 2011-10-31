@@ -1,7 +1,7 @@
----
-title: What AutoHotkey version should I choose?
+﻿---
+title: "What AutoHotkey version should I choose?"
 layout: default
-permalink: /en/What-Version-To-Choose.html
+permalink: "/en/What-Version-To-Choose.html"
 ---
 
 # What to choose?
@@ -16,7 +16,7 @@ If you choose this version, any bugs you detect won't be fixed, and you can't us
 This fork is based on the original AutoHotkey code, and it is developed by Lexikos (Steve Gray). Contrary to AutoHotkey classic, it is still actively maintained.
 Bugs are usually fixed quickly (given you report them), however, sometimes a change introduces a new bug.
 AutoHotkey_L has hundreds of new features, such as Arrays / Objects + classes (we'll deal with them later), native COM (another topic we'll discuss), but also features useful for hotkey scripters, and last but not least 64bit support.
-AutoHotkey_L is offered in an ANSI and an Unicode version. This describes a different script encoding. You may not know a lot about it, but Unicode often makes dealing with advanced topics (Windows API), but also hotkeys with special characters (ä, ö, ü, ß, Ø, Њ, ڵ, ...) easier. On the other side, *some* old scripts from the forum might have minor issues.
+AutoHotkey_L is offered in an ANSI and an Unicode version. This describes a different script encoding. You may not know a lot about it, but Unicode often makes dealing with advanced topics (Windows API), but also hotkeys with special characters (&auml;, &ouml;, &uuml;, &szlig;, &Oslash;, Њ, ڵ, ...) easier. On the other side, *some* old scripts from the forum might have minor issues.
 
 ## IronAHK
 This fork is a complete rewrite of AutoHotkey classic in C# (by polyethene and other contributors), which will enable cross-platform AutoHotkey. You'll be able to compile scripts into regular .NET assemblies, plus it will offer new features such as Arrays / Objects and Unicode. It requires (of course) the .NET framework or [Mono](http://www.mono-project.com/Main_Page) to be installed.
