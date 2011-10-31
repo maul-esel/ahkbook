@@ -34,6 +34,7 @@ It is not (yet) recommended to install this version.
 ## AutoHotkey.dll
 
 ## AutoHotkeyU (legacy)
+[AutoHotkeyU](http://www.autohotkey.com/forum/viewtopic.php?t=50485) was a Unicode version of AutoHotkey_L rev. 41 by jackieku. This has been merged into the regular AutoHotkey_L.
 
 ## multiple versions aside
 
