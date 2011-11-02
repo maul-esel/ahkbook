@@ -1,1 +1,0 @@
-This folder holds all the posts in English.

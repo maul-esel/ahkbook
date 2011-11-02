@@ -1,1 +1,0 @@
-This folder holds copyable layout parts.

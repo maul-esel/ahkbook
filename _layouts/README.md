@@ -1,1 +1,0 @@
-This folder holds the templates for all posts and more.
