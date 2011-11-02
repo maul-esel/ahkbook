@@ -42,7 +42,10 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Your first script]()
 	- [Compiling a script](Compiling.html)
 
-4. [some basic things to understand](Basic-Concepts.html)
+4. [A guide to the manual]()
+5. [A guide to the AutoHotkey forum]()
+
+6. [some basic things to understand](Basic-Concepts.html)
 	- [#Directives](Directives.html)
 	- [Commands vs. Functions]()
 	- ["statements" (if, else, ...)]()
@@ -50,9 +53,6 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [Expressional vs. Traditional]()
 		- [Out- & InputVars]()
 		- [ByRef Variables]()
-
-5. [A guide to the manual]()
-6. [A guide to the AutoHotkey forum]()
 
 7. [Let's start]()
 	- [Hotkeys & Co.]()
