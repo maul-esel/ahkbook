@@ -28,6 +28,6 @@ AutoHotkey syntax highlighting via `{% highlighting ahk %}` currently doesn't wo
 
 Issues:
 
-* [UTF-8](https://github.com/mojombo/jekyll/issues/429)
+* [UTF-8](https://github.com/mojombo/jekyll/issues/429) [FIXED!]
 * [AHK Syntax](https://github.com/mojombo/jekyll/issues/428)
 * [GFM](https://github.com/mojombo/jekyll/issues/427)
