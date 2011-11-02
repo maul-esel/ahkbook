@@ -1,6 +1,6 @@
 ---
 title: What AutoHotkey version should I choose?
-layout: default
+layout: post
 permalink: /en/What-Version-To-Choose.html
 ---
 

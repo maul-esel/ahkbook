@@ -1,6 +1,6 @@
 ---
 title: Compiling scripts
-layout: default
+layout: post
 permalink: /en/Compiling.html
 ---
 

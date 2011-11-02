@@ -1,6 +1,6 @@
 ---
 title: #Directives
-layout: default
+layout: post
 permalink: /en/Directives.html
 ---
 
