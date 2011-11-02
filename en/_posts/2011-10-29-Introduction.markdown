@@ -40,7 +40,7 @@ Anyone else who has (even minor) questions / suggestions / improvements, PM me a
 	- [Compiling a script](Compiling.html)
 
 4. [some basic things to understand](Basic-Concepts.html)
-	- [#Directives]()
+	- [#Directives](Directives.html)
 	- [Commands vs. Functions]()
 	- ["statements" (if, else, ...)]()
 	- [Variable modes]()
