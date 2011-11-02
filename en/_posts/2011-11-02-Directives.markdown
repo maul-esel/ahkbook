@@ -19,7 +19,7 @@ All directives in AutoHotkey begin with an `#`.
 Non-positional directives are a kind of "setting" for your script. They affect how your script behaves during execution, control features or change the script's syntax. It doesn't count ***where*** in the script they are used, and using them multiple times is useless.
 
 Important non-positional directives include:
-* `#SingleInstance` - controls whether the script can run several times simultaneously. Imagine your script is currently running, and the user starts it a sceond time. What should happen?
+* `#SingleInstance` - controls whether the script can run several times simultaneously. Imagine your script is currently running, and the user starts it a second time. What should happen?
 * `#NoEnv` - turns off expansion of empty variables to environment variables. By default, AutoHotkey will try to replace empty variables with an environment variable of the same name. This directive turns this feature off and improves performance.
 * `#CommentFlag` - changes the character that is used to mark a comment. This directive (and several others) are **not recommended** because they make it difficult for others to use your code. They are also removed in AutoHotkey v2.
 
