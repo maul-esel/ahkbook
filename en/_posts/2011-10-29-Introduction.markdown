@@ -28,7 +28,7 @@ DllCall("MyFunction", "ptr", ptr)
 
 (doesn't work)
 
-Anyone else who has (even minor) questions /suggestions / improvements, PM me at the (german or english) AHK forum or at github!
+Anyone else who has (even minor) questions / suggestions / improvements, PM me at the (german or english) AHK forum or at github!
 
 ## Index:
 ***Note:*** This list and its order are not set in stone. Feel free to change it.
@@ -42,7 +42,7 @@ Anyone else who has (even minor) questions /suggestions / improvements, PM me at
 6. [A guide to the AutoHotkey forum]()
 
 7. [Documenting your code]()
-	- [reasons]()
+	- [Why and how to document your code]()
 	- [tools (NDocs & GenDocs)]()
 
 8. [Hotkeys & Co.]()
