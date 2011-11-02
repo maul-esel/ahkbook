@@ -14,7 +14,12 @@ body > * {
 }
 
 h2 {
-	margin-left: 20%
+	margin-left: 20%;
+	margin-right: 20%
+}
+h3 {
+	margin-left: 22.5%;
+	margin-right: 22.5%
 }
 
 a:link, a:visited {
@@ -42,4 +47,9 @@ blockquote {
 
 blockquote:first-letter {
 	font-size: 120%
+}
+
+img {
+	text-align: center;
+	max-width: 50%
 }
