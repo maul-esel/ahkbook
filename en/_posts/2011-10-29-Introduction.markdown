@@ -15,10 +15,21 @@ You can use Markdown, Textile, HTML, ...
 Learn more about [Jekyll](https://github.com/mojombo/jekyll#readme).
 
 When including code, make it work for all versions (if possible). Example:
-{% highlight ahk %} ; AutoHotkey classic or IronAHK
-DllCall("MyFunction", "uint", ptr) {% endhighlight %}
-{% highlight ahk %} ; AutoHotkey_L or AutoHotkey v2
-DllCall("MyFunction", "ptr", ptr) {% endhighlight %}
+
+{% highlight ahk %}
+; AutoHotkey classic or IronAHK
+DllCall("MyFunction", "uint", ptr)
+{% endhighlight %}
+
+{% highlight ahk %}
+; AutoHotkey_L or AutoHotkey v2
+DllCall("MyFunction", "ptr", ptr)
+{% endhighlight %}
+
+{% highlight csharp %}
+class MyClass : System.Object {}
+{% endhighlight %}
+
 (doesn't work)
 
 Anyone else who has (even minor) questions /suggestions / improvements, PM me at the (german or english) AHK forum or at github!
