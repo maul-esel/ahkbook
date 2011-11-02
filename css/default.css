@@ -9,17 +9,17 @@ h1 {
 }
 
 body > * {
-	margin-left: 25%;
-	margin-right: 25%
-}
-
-h2 {
 	margin-left: 20%;
 	margin-right: 20%
 }
+
+h2 {
+	margin-left: 15%;
+	margin-right: 15%
+}
 h3 {
-	margin-left: 22.5%;
-	margin-right: 22.5%
+	margin-left: 17.5%;
+	margin-right: 17.5%
 }
 
 a:link, a:visited {
