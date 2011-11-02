@@ -5,30 +5,18 @@ permalink: /en/Introduction.html
 ---
 
 # Introduction
-This project is intended to provide a collection of tutorials, scripts, technologies and a reference for AutoHotkey.
-**It is not intended to replace the excellent AHK help file!**
 
-## Contribute
-Please help me with this project! Anyone who has a github account, fork it! Add your own posts!
+## What is AutoHotkey?
+...
 
-You can use Markdown, Textile, HTML, ...
-Learn more about [Jekyll](https://github.com/mojombo/jekyll#readme).
+## What can AutoHotkey do?
+...
 
-When including code, make it work for all versions (if possible). Example:
+## What can't AutoHotkey do?
+...
 
-{% highlight ahk %}
-; AutoHotkey classic or IronAHK
-DllCall("MyFunction", "uint", ptr)
-{% endhighlight %}
-
-{% highlight ahk %}
-; AutoHotkey_L or AutoHotkey v2
-DllCall("MyFunction", "ptr", ptr)
-{% endhighlight %}
-
-(doesn't work)
-
-Anyone else who has (even minor) questions / suggestions / improvements, PM me at the (german or english) AHK forum or at github!
+## When and why should I use AutoHotkey?
+...
 
 ## Index:
 ***Note:*** This list and its order are not set in stone. Feel free to change it.

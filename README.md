@@ -1,6 +1,6 @@
 # ahkbook - a book on AutoHotkey
 
-Information on this project can be found on its [start page](http://maul-esel.github.com/ahkbook/en/Introduction).
+Information on this project can be found on its [start page](http://maul-esel.github.com/ahkbook/StartPage.html).
 
 ## Contributing
 Please help me with this project. Add your posts, ideas, knowledge, experience to help AutoHotkey beginners, and to provide a reference for advanced users!
