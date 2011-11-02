@@ -24,7 +24,7 @@ This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme
 You can write your posts in HTML, Markdown (like this file) or Textile.
 
 ### Another important note:
-AutoHotkey syntax highlighting via `{% highlighting ahk %}` currently doesn't work. I created an issue on Jekyll to address this. If anyone (a Ruby programmer) knows how to fix this, please do so and send the author a pull request.
+AutoHotkey syntax highlighting via `{% highlight ahk %}` currently doesn't work. I created an issue on Jekyll to address this. If anyone (a Ruby programmer?) knows how to fix this, please do so and send the author a pull request.
 
 Issues:
 
