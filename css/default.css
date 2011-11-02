@@ -50,6 +50,10 @@ blockquote:first-letter {
 }
 
 img {
+	padding: 5px;
+	margin: 5px;
+	border: solid gray 2px;
 	text-align: center;
+	display: block;
 	max-width: 50%
 }
