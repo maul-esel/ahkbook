@@ -26,10 +26,6 @@ DllCall("MyFunction", "uint", ptr)
 DllCall("MyFunction", "ptr", ptr)
 {% endhighlight %}
 
-{% highlight csharp %}
-class MyClass : System.Object {}
-{% endhighlight %}
-
 (doesn't work)
 
 Anyone else who has (even minor) questions /suggestions / improvements, PM me at the (german or english) AHK forum or at github!
