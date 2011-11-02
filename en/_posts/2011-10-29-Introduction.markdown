@@ -42,36 +42,39 @@ Anyone else who has (even minor) questions /suggestions / improvements, PM me at
 3. [First steps]()
 4. [Compiling a script](Compiling.html)
 
-5. [Documenting your code]()
+5. [A guide to the manual]()
+6. [A guide to the AutoHotkey forum]()
+
+7. [Documenting your code]()
 	- [reasons]()
 	- [tools (NDocs & GenDocs)]()
 
-6. [Hotkeys & Co.]()
-7. [Basic User Interaction: MsgBox & co.]()
-8. [GUI stuff]()
+8. [Hotkeys & Co.]()
+9. [Basic User Interaction: MsgBox & co.]()
+10. [GUI stuff]()
 
-9. [Expressional vs. Traditional]()
-10. [User-defined and builtin functions]()
+11. [Expressional vs. Traditional]()
+12. [User-defined and builtin functions]()
 
-11. [Into the web: HttpRequests, httpQuery(), downloading and more]()
+13. [Into the web: HttpRequests, httpQuery(), downloading and more]()
 
-12. [A bit of advanced stuff]()
+14. [A bit of advanced stuff]()
 	- [DllCalls to Windows API]()
 	- [NumPut, NumGet, VarSetCapacity & stuff]()
 
-13. [custom GUI controls]() (+ embedding browser in GUI etc.)
+15. [custom GUI controls]() (+ embedding browser in GUI etc.)
 
-14. [COM]()
+16. [COM]()
 	- [a short introduction]()
 	- [StdLib & native COM]()
 	- [automating IE & FF]()
 	- [automating Office]()
 	- [interfaces]()
 
-15. [OOP]()
+17. [OOP]()
 	- [Classes]()
 
-16. [Libraries]()
+18. [Libraries]()
     - [CWindow library]() (+ C# converter)
-	- [Aero Library]()
+    - [Aero Library]()
     - [gdi+]()
