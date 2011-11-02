@@ -39,7 +39,7 @@ Anyone else who has (even minor) questions / suggestions / improvements, PM me a
 	- [Your first script]()
 	- [Compiling a script](Compiling.html)
 
-4. [some basic things to understand]()
+4. [some basic things to understand](Basic-Concepts.html)
 	- [#Directives]()
 	- [Commands vs. Functions]()
 	- ["statements" (if, else, ...)]()
