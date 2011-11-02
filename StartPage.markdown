@@ -22,4 +22,4 @@ Everything, every minor or major improvement / addition / suggestion is welcome!
 * [Frankie]()
 
 ## Available versions
-* [english](/en/Introduction.html) - *work in progress!*
+* [english](en/Introduction.html) - *work in progress!*
