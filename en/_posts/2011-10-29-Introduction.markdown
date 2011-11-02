@@ -7,16 +7,31 @@ permalink: /en/Introduction.html
 # Introduction
 
 ## What is AutoHotkey?
-...
+AutoHotkey is a powerful scripting language for Windows. It allows you to easily manipulate other programs, create custom hotkeys and "hotstrings", interact with the user, read, create and manage files and a lot more.
+
+With AutoHotkey, you can also use big parts of the Windows API, interact with Web applications, use COM and more.
+
+With these both simple and advanced features, AutoHotkey is as well suitable for beginners as for advanced programmers that want to customize their environment or automate common tasks.
+
+AutoHotkey was originally developed by Chris Mallett. Today, there are a lot of custom versions and additions, which we will cover in [Chapter 1](What-Version-To-Choose.html).
 
 ## What can AutoHotkey do?
-...
+***Everything.*** Seriously, no one has yet found a task that can't be done with AutoHotkey in some way. Some of these ways are simple, some are not very elegant, some are rather obscure, however, they work.
 
 ## What can't AutoHotkey do?
-...
+There are just two things:
+* **Performance:** AutoHotkey is a scripting language. That means, it is interpreted each time it's run. This has of course some impact on performance.
+* **Compilation**: AutoHotkey cannot be used as a shell extension or something, as it can't be binary-compiled. There's a compiler, but it only compiles to an \*.exe, and it doesn't compile the AutoHotkey source code to a binary.
+
+Both issues might be (partially) solved later by the IronAHK version.
+
 
 ## When and why should I use AutoHotkey?
-...
+You should use AutoHotkey because it is easy to use and to learn, because it offers simple solutions, because it has advanced features, because it is a great and helpful language to learn.
+
+In the beginnings, you should of course start with easy things. But you're not limited to them: people write complex and large software in AutoHotkey. As an example, large parts of the recommended editor for AutoHotkey, [Scite4AutoHotkey](), are written in AutoHotkey.
+
+You can use AutoHotkey for game scripts, for quick macros, for tasks that take hours, for deep system modifications, for automating other applications through their window or through other interfaces, and a lot more.
 
 ## Index:
 ***Note:*** This list and its order are not set in stone. Feel free to change it.
