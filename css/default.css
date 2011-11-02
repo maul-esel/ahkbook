@@ -8,17 +8,13 @@ h1 {
 	text-align: center
 }
 
-h2 {
-	margin-left: 20%
-}
-
-p, ol, ul, blockquote {
-	text-align: justify;
-}
-
-body > p, body > ol, body > ul, body > blockquote {
+body > * {
 	margin-left: 25%;
 	margin-right: 25%
+}
+
+h2 {
+	margin-left: 20%
 }
 
 a:link, a:visited {
