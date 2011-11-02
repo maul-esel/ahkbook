@@ -17,5 +17,9 @@ Check out the guidelines [here](https://github.com/maul-esel/ahkbook#readme).
 
 Everything, every minor or major improvement / addition / suggestion is welcome!
 
+## Contributors
+* [maul-esel]()
+* [Frankie]()
+
 ## Available versions
 * [english](/en/Introduction.html) - *work in progress!*
