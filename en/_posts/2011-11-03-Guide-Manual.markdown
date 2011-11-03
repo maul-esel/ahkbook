@@ -7,13 +7,13 @@ permalink: /en/Guide-Manual.html
 # A guide to the manual
 
 ## Where to find the AutoHotkey help file?
-AutoHotkey comes with a ***great*** help file that explains a lot of things. This comes with the installer and is usually located at `C:\Program Files\AutoHotkey\AutoHotkey.chm`. There's also an online version at [www.autohotkey.com/...](http://www.autohotkey.com/...).
+AutoHotkey comes with a ***great*** help file that explains a lot of things. This comes with the installer and is usually located at `C:\Program Files\AutoHotkey\AutoHotkey.chm`. There's also an online version at [www.autohotkey.com/docs/](http://www.autohotkey.com/docs/).
 
-For AutoHotkey\_L, the online version is at [www.autohotkey.net/~Lexikos/AutoHotkey_L/...](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/...).
+For AutoHotkey\_L, the online version is at [www.autohotkey.net/~Lexikos/AutoHotkey_L](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/).
 
 For German, there's a complete translation of the AutoHotkey_L manual available [in the german forum](http://de.autohotkey.com/forum/viewtopic.php?t=8861).
 
-There are no helpfiles for AutoHotkey v2 and IronAHK right now. For IronAHK, you can use the AutoHotkey classic helpfile for most cases, AutoHotkey v2 users should check out the [Autohotkey v2 thread]() for changes.
+There are no helpfiles for AutoHotkey v2 and IronAHK right now. For IronAHK, you can use the AutoHotkey classic helpfile for most cases, AutoHotkey v2 users should check out the [Autohotkey v2 thread](http://www.autohotkey.com/forum/topic70266.html) for changes.
 
 ## How to use the help file
 Running the above file gives you the usual WindowsHelp window. You can navigate to the right using the `content` tree, entering keywords in the `index` or the `search` tab, and save the most used pages in the `Favorites` tab.
