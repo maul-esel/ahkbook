@@ -27,7 +27,6 @@ Make sure you chose the correct encoding. If you have installed AutoHotkey class
 * In Notepad++, it's in the menu bar under `Encoding`.
 
 ---
-
 ## Execute your script
 If you have run an installer, just double-click the file for executing it. Otherwise use the command line to run `[Path/To/YourAutoHotkey].exe "[Path/to/your/script].ahk"`.
 
@@ -40,7 +39,6 @@ You should see a box appear similar to the screenshot below:
 The first word in your code above, `MsgBox`, is an AutoHotkey command that instructs AutoHotkey to show that box. The rest of the code is, as you might have guessed, the message to display.
 
 ## Extending that example
-
 You can customize the MsgBox further:
 ![2nd MsgBox screenshot]({{ site.url }}/Images/Hello-World-2.en.png)
 
@@ -49,3 +47,19 @@ Use the following code:
 {% highlight ahk %}
 MsgBox, 36, a question, Would you like to say 'Hello, World'?
 {% endhighlight %}
+
+## Comments
+As in all programming and scripting languages, you can add comments to AutoHotkey source code as well:
+
+{% highlight ahk %}
+/***********************************
+This is my first script!
+Impressive, isn't it?
+************************************
+*/
+MsgBox ; this displays a box saying "Click OK to continue"
+{% endhighlight %}
+
+So you can see: the character for one-line comments is the semicolon (`;`). This can of course be used in the same line as code, but it must be at the end and there must be at least one space or tab before the semicolon.
+
+For multi-line comments, you use `/*` and `*/`. There can be more text on the same line as the comment start (as in the example), but **the comment-end must be alone in a line!**
