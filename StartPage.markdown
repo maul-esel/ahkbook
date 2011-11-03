@@ -18,8 +18,8 @@ Check out the guidelines [here](https://github.com/maul-esel/ahkbook#readme).
 Everything, every minor or major improvement / addition / suggestion is welcome!
 
 ## Contributors
-* [maul-esel]()
-* [Frankie]()
+* [maul-esel](http://maul-esel.github.com/)
+* [Frankie](http://aboutscript.com/blog/)
 * [nimda](http://www.autohotkey.com/forum/profile.php?mode=viewprofile&u=48362)
 
 ## Available versions
