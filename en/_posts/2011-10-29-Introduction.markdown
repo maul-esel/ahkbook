@@ -29,7 +29,7 @@ Both issues might be (partially) solved later by the IronAHK version.
 ## When and why should I use AutoHotkey?
 You should use AutoHotkey because it is easy to use and to learn, because it offers simple solutions, because it has advanced features, because it is a great and helpful language to learn.
 
-In the beginnings, you should of course start with easy things. But you're not limited to them: people write complex and large software in AutoHotkey. As an example, large parts of the recommended editor for AutoHotkey, [Scite4AutoHotkey](), are written in AutoHotkey.
+In the beginnings, you should of course start with easy things. But you're not limited to them: people write complex and large software in AutoHotkey. As an example, large parts of the recommended editor for AutoHotkey, [Scite4AutoHotkey](http://www.autohotkey.com/forum/viewtopic.php?t=58820), are written in AutoHotkey.
 
 You can use AutoHotkey for game scripts, for quick macros, for tasks that take hours, for deep system modifications, for automating other applications through their window or through other interfaces, and a lot more.
 
