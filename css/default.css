@@ -55,6 +55,28 @@ a:hover, a:focus {
 	color: #2B89AF;
 }
 
+
+/* The three icons are made by Yusuke Kamiyamane
+   http://p.yusukekamiyamane.com/
+   License: http://creativecommons.org/licenses/by/3.0/  */
+
+a[href*="://"] {
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url(external.png);
+}
+
+a[href^="http://www.autohotkey.com"] {
+	background-image: url(docs.png);
+}
+
+a[href^="http://www.autohotkey.net"],
+a[href^="http://www.autohotkey.com/forum"] {
+	padding-right: 16px;
+	background-image: url(forum.png);
+}
+
 cite {
 	font-style: italic
 }

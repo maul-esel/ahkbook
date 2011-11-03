@@ -24,7 +24,7 @@ Included are:
 TODO
 ------------------------
 
-* Use attribute queries for different sites
+* [DONE] Use attribute queries for different sites
 ** Docs links will have an icon to the right
 ** Forum posts will have another
 ** All other outbound links (not on the same site) will have another icon
