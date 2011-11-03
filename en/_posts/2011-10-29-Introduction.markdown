@@ -43,7 +43,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Compiling a script](Compiling.html)
 
 4. [A guide to the manual](Guide-Manual.html)
-5. [A guide to the AutoHotkey forum]()
+5. [A guide to the AutoHotkey forums](Guide-Forums.html)
 
 6. [some basic things to understand](Basic-Concepts.html)
 	- [#Directives](Directives.html)
