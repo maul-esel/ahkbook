@@ -47,7 +47,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 6. [some basic things to understand](Basic-Concepts.html)
 	- [#Directives](Directives.html)
-	- [Commands vs. Functions]()
+	- [Commands vs. Functions](Commands-functions.html)
 	- ["statements" (if, else, ...)]()
 	- [Variable modes]()
 		- [Expressional vs. Traditional]()
