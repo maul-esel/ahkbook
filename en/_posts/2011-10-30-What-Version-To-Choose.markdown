@@ -29,9 +29,10 @@ You can already use it, although it may have some bugs. But you might have to ch
 AutoHotkey v2 is Unicode-only.
 It is not (yet) recommended to install this version.
 
-## AutoHotkey_H
+## AutoHotkey\_H (AutoHotkey.dll)
+AutoHotkey.dll (AutoHotkey\_H) is a custom build of AutoHotkey\_L, maintained by HotKeyIt. It can be used from programming languages other than AutoHotkey to provide extra functionality to those languages. It allows multithreading within AutoHotkey, and can be used to run dynamic AHK code, use wildcards in #Includes or dynamic #Includes, or exit all threads. There is a COM interface, so it can easily be used from AutoHotkey\_L, VBScript, Javascript, etc.
 
-## AutoHotkey.dll
+There's also a version based on AutoHotkey v2 available.
 
 ## AutoHotkeyU (legacy)
 [AutoHotkeyU](http://www.autohotkey.com/forum/viewtopic.php?t=50485) was a Unicode version of AutoHotkey_L rev. 41 by jackieku. This has been merged into the regular AutoHotkey_L.

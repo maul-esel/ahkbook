@@ -20,6 +20,7 @@ Everything, every minor or major improvement / addition / suggestion is welcome!
 ## Contributors
 * [maul-esel]()
 * [Frankie]()
+* [nimda](http://www.autohotkey.com/forum/profile.php?mode=viewprofile&u=48362)
 
 ## Available versions
 * [english](en/Introduction.html) - *work in progress!*
