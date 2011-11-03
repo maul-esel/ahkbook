@@ -1,6 +1,6 @@
 ---
 title: The coding environment
-layout: default
+layout: post
 permalink: /en/Coding-Environment.html
 ---
 

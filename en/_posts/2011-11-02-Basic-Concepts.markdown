@@ -1,6 +1,6 @@
 ---
 title: Some basic things to understand
-layout: default
+layout: post
 permalink: /en/Basic-Concepts.html
 ---
 

@@ -1,6 +1,6 @@
 # ahkbook - a book on AutoHotkey
 
-Information on this project can be found on its [start page](http://maul-esel.github.com/ahkbook/en/Introduction).
+Information on this project can be found on its [start page](http://maul-esel.github.com/ahkbook/index.html).
 
 ## Contributing
 Please help me with this project. Add your posts, ideas, knowledge, experience to help AutoHotkey beginners, and to provide a reference for advanced users!
@@ -10,7 +10,7 @@ To contribute, do the following:
 * if you're on github:
 	* PM me on github or in the AutoHotkey forums
 	* fork the project
-	* change the `url` setting in `_config.yml` to `'http://[your username].github.com/ahkbook'`
+	* **IMPORTANT: change the `url` setting in `_config.yml` to `'http://[your username].github.com/ahkbook'`**
 	* do your changes and additions, optionally creating new branches
  	* if you have access to a Linux / Ubuntu / ... system or VM, ***consider*** installing Jekyll locally
 	* test if it works
@@ -23,6 +23,7 @@ In either way,
 * author posts mentioned in the index
 * improve and complete existing posts
 * translate posts in other languages (place them in a corresponding folder, such as `de/_posts` or `fr/_posts`).
+* add yourself to the list of contributors with a website of your choice ;-)
 
 ### Important note:
 This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme). Check it out before contributing.
