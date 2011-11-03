@@ -38,7 +38,7 @@ To have more control about the output, run the compiler from Windows Explorer (i
 The options should be self-explanatory. There's also a paragraph in the help file: enter `compile a script` in the index.
 
 ### IronAHK
-...
+As IronAHK doesn't have a GUI compiler yet, use the command line / terminal and run `ironahk /out example.exe script.ahk`.
 
 ### AutoHotkey v2
 Currently, compiling AutoHotkey v2 scripts is not possible. This will be added in the final version (or earlier).
