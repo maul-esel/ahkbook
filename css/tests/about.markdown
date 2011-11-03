@@ -7,7 +7,6 @@ Expectations of layout
 * h2 is used for major sections
 * any headers inside that are h3 followed by h4
 ** there should be rare if ever usage of headers 5-7
-* Use code instead of pre
 ** This may change depending on syntax hilighting chosen
 * Wrap all content in a div with the class "content"
 ** This should be done in the main Jekyll layout
@@ -29,11 +28,19 @@ TODO
 ** Forum posts will have another
 ** All other outbound links (not on the same site) will have another icon
 *** How should GitHub links be handled?
+**** Icon for GitHub should be added
+**** octocat?
 * Make the h1 more interesting
 * Consider legend/fieldset elements
-* Table support if desired
+* Table support
 * Extensive IE testing needed
 ** At the time of writing I'm crossing my fingers (no testing done on IE)
 * Mobile browser testing
-** Shouldn't be any problems at all
+** Android
+*** "ok" means zoom problems, "good" means best
+*** Stock browser [good]
+*** FireFox [ok]
+*** Opera Mobile [good]
+
+** IOS4 browser [ok]
 
