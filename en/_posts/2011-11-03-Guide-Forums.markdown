@@ -7,7 +7,7 @@ permalink: /en/Guide-Forums.html
 # A guide to the AutoHotkey forums
 
 ## Forums for different languages
-There's the [english forum](http://www.autohotkey.com/forum/), the [german forum](http://de.autohotkey.com/forum/), the [chinese forum](http://ahk.5d6d.com/), the [corean forum](http://cafe.naver.com/AutoHotKey) and the [russian forum](http://forum.script-coding.com/viewforum.php?id=13). Of course you're welcome to post in any of these, given you can understand the answers ;-).
+There's the [english forum](http://www.autohotkey.com/forum/), the [german forum](http://de.autohotkey.com/forum/), the [chinese forum](http://ahk.5d6d.com/), the [korean forum](http://cafe.naver.com/AutoHotKey) and the [russian forum](http://forum.script-coding.com/viewforum.php?id=13). Of course you're welcome to post in any of these, given you can understand the answers ;-).
 In this section, we will look at the english forum.
 
 ## Subforums
