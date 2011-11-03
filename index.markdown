@@ -1,7 +1,7 @@
 ---
 title: StartPage
 layout: default
-permalink: /StartPage.html
+permalink: /index.html
 ---
 
 # ahkbook - the book for AutoHotkey
