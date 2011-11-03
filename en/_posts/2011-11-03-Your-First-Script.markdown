@@ -31,7 +31,7 @@ Make sure you chose the correct encoding. If you have installed AutoHotkey class
 ## Execute your script
 If you have run an installer, just double-click the file for executing it. Otherwise use the command line to run `[Path/To/YourAutoHotkey].exe "[Path/to/your/script].ahk"`.
 
-For IronAHK, run `mono IronAHK.exe [Path/to/our/script].ahk`.
+For IronAHK on Linux / Ubuntu / Mac, run `mono IronAHK.exe [Path/to/our/script].ahk`.
 
 You should see a box appear similar to the screenshot below:
 ![MsgBox screenshot]({{ site.url }}/Images/Hello-World-1.en.png)
