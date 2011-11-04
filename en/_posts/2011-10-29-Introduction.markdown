@@ -68,7 +68,9 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Why and how to document your code]()
 	- [tools (NDocs & GenDocs)]()
 
-11. [User-defined and builtin functions]()
+11. [User-defined functions]()
+
+	- [libraries and stdLib conventions]()
 
 12. [Into the web: downloading, HttpRequests, httpQuery() and more]()
 
@@ -94,6 +96,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Classes]()
 
 17. [Libraries]()
-    - [CWindow library]() (+ C# converter)
+    - [CWindow library (+ C# converter)]()
     - [Aero Library]()
     - [gdi+]()
+	- [The standard library collection]()
