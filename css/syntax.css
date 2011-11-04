@@ -1,9 +1,18 @@
 .highlight {
 	background-color: #ffffff;
 	border: solid gray 1px;
+	padding: 3px;
 }
 .highlight code {
 	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+}
+
+.highlight .lineno {
+	background-color: #DEDEDE;
+	color: #444444;
+	padding: 3px;
 }
 
 .highlight .c { color: green; font-style: italic } /* Comment */
