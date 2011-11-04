@@ -42,10 +42,17 @@ AutoHotkey.dll (AutoHotkey\_H) is a custom build of AutoHotkey\_L, maintained by
 
 There's also a version based on AutoHotkey v2 available.
 
-### AutoHotkeyU (legacy)
-[AutoHotkeyU](http://www.autohotkey.com/forum/viewtopic.php?t=50485) was a Unicode version of AutoHotkey\_L rev. 41 by jackieku. This has been merged into the regular AutoHotkey\_L.
+## Legacy versions
+
+### AutoHotkeyU
+[AutoHotkeyU](http://www.autohotkey.com/forum/viewtopic.php?t=50485) was a Unicode version of AutoHotkey\_L rev. 41 by jackieku. This has been merged into AutoHotkey\_L.
 
 **It is no longer recommended to install this version.**
+
+### AutoHotkey64
+[AutoHotkey64](http://www.autohotkey.com/forum/topic58237.html) was a 64bit version of AutoHotkey\_L by fincs. This has been merged into AutoHotkey\_L.
+
+**It is no longer recommended to install this version. AutoHotkey\_L has 64bit support.**
 
 ## multiple versions aside
 ...
