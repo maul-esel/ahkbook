@@ -32,6 +32,10 @@ a:hover, a:focus {
 	text-decoration: underline
 }
 
+a[href=''] {
+	color: darkred
+}
+
 cite {
 	font-style: italic
 }
