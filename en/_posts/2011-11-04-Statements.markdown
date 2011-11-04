@@ -10,7 +10,7 @@ permalink: /en/Statements.html
 A statement is something that influences what your code does without doing something itself. The most important statements in AutoHotkey are listed and explained here.
 
 ## if & else
-{% highlight ahk linenos %}
+{% highlight ahk linenos %}; any AutoHotkey version
 if (A_Username = "genius")
 	MsgBox You're a genius!
 else if (A_Username = "intelligent")

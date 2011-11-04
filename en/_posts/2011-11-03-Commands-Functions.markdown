@@ -12,7 +12,7 @@ Unlike many other languages, AutoHotkey has 2 different ways of doing stuff: com
 ### Commands
 A *command* is called by writing it's name, followed by an optional comma and the parameters:
 
-{% highlight ahk %}
+{% highlight ahk linenos %}; any AutoHotkey version
 MsgBox, Hi
 {% endhighlight %}
 
@@ -20,7 +20,7 @@ Most command parameters are in *traditional mode* by default (we'll cover this l
 
 ### Functions
 Function calls **must** be enclosed by brackets:
-{% highlight ahk %}
+{% highlight ahk linenos %}; any AutoHotkey version
 integer := round(2.34)
 {% endhighlight %}
 

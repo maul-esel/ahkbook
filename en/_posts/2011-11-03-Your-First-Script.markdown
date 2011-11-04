@@ -13,7 +13,7 @@ We'll do our first script now.
 If you have used the AutoHotkey classic or AutoHotkey\_L installer, right-click on your desktop or any folder and select New > AutoHotkey Script from the context menu. Open the newly created file in your editor. If you haven't run an installer, just open your editor and save it as a file with the extension ".ahk".
 
 In the editor, type the following code:
-{% highlight ahk %}
+{% highlight ahk linenos %}; any AutoHotkey version
 MsgBox Hello, World!
 {% endhighlight %}
 
@@ -44,14 +44,14 @@ You can customize the MsgBox further:
 
 Use the following code:
 
-{% highlight ahk %}
+{% highlight ahk linenos %}; any AutoHotkey version
 MsgBox, 36, a question, Would you like to say 'Hello, World'?
 {% endhighlight %}
 
 ## Comments
 As in all programming and scripting languages, you can add comments to AutoHotkey source code as well:
 
-{% highlight ahk %}
+{% highlight ahk linenos %}; any AutoHotkey version
 /***********************************
 This is my first script!
 Impressive, isn't it?
