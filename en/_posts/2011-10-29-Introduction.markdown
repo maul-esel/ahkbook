@@ -38,7 +38,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 1. [What AutoHotkey version to choose?](What-Version-To-Choose.html)
 2. [Coding Environment](Coding-Environment.html)
-3. [First steps]()
+3. [First steps](First-steps.html)
 	- [Your first script](Your-First-Script.html)
 	- [Compiling a script](Compiling.html)
 
