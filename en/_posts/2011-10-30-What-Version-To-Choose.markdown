@@ -64,7 +64,10 @@ AutoHotkey.dll is a DLL version included with AutoHotkey\_H. It can be used to r
 ## multiple versions aside
 ...
 
-
 ## Conclusion
 Now you'll have to choose your version. Personally, I recommend AutoHotkey_L Unicode, and I'm not the only one to do so, but it's your choice.
 The examples in this book will contain code for all versions of AutoHotkey, except for features that aren't supported by some version. The AutoHotkey version will be in a comment in the first line of each example.
+
+## version overview
+A small diagram to illustrate AutoHotkey's version development (click to view in full size):
+[![diagram](images/versions.png)](images/versions.png)
