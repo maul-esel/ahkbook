@@ -37,10 +37,17 @@ AutoHotkey v2 is Unicode-only.
 
 **It is not (yet) recommended to install this version.**
 
-### AutoHotkey\_H (AutoHotkey.dll)
-[AutoHotkey.dll](http://www.autohotkey.com/forum/topic43049.html) (AutoHotkey\_H) is a custom build of AutoHotkey\_L, maintained by HotKeyIt. It can be used from programming languages other than AutoHotkey to provide extra functionality to those languages. It allows multithreading within AutoHotkey, and can be used to run dynamic AHK code, use wildcards in #Includes or dynamic #Includes, or exit all threads. There is a COM interface, so it can easily be used from AutoHotkey\_L, VBScript, Javascript, etc.
+### AutoHotkey\_H
+[AutoHotkey\_H](http://www.autohotkey.com/forum/topic43049.html) is a custom build of AutoHotkey\_L, maintained by HotKeyIt.
+
+It allows multithreading within AutoHotkey, and can be used to run dynamic AHK code, use wildcards in #Includes or dynamic #Includes, or exit all threads.
 
 There's also a version based on AutoHotkey v2 [available](http://www.autohotkey.net/~HotKeyIt/AutoHotkey2alpha.zip).
+
+**You can use this version if you need its advanced features. Otherwise you should use AutoHotkey\_L.**
+
+### AutoHotkey.dll
+AutoHotkey.dll is a DLL version included with AutoHotkey\_H. It can be used to run AutoHotkey\_H code from within other scripting or programming languages.  There is a COM interface, so it can easily be used from AutoHotkey\_L, AutoHotkey\_H, AutoHotkey v2, VBScript, Javascript, etc.
 
 ## Legacy versions
 
