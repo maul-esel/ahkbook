@@ -33,14 +33,14 @@ If you have run an installer, just double-click the file for executing it. Other
 For IronAHK on Linux / Ubuntu / Mac, run `mono IronAHK.exe [Path/to/our/script].ahk`.
 
 You should see a box appear similar to the screenshot below:
-![MsgBox screenshot]({{ site.url }}/Images/Hello-World-1.en.png)
+![MsgBox screenshot](images/Hello-World-1.png)
 
 ## What happened?
 The first word in your code above, `MsgBox`, is an AutoHotkey command that instructs AutoHotkey to show that box. The rest of the code is, as you might have guessed, the message to display.
 
 ## Extending that example
 You can customize the MsgBox further:
-![2nd MsgBox screenshot]({{ site.url }}/Images/Hello-World-2.en.png)
+![2nd MsgBox screenshot](images/Hello-World-2.png)
 
 Use the following code:
 

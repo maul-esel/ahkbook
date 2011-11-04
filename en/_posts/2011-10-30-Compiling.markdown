@@ -34,7 +34,7 @@ Another great tool is [Compile_AHK II](http://www.autohotkey.com/forum/viewtopic
 If you have run the installer, right-click the script file and select `Compile Script` from the context menu. This will run the compiler with the default settings and the last used icon. You should see a file called `[YourScriptName].exe` appear in the source file's folder.
 
 To have more control about the output, run the compiler from Windows Explorer (it's usually `C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe`) or the start menu. You will see a window appear that allows you to customize the input- and output file, the icon, and, in AutoHotkey classic, the password.
-![compiler window screenshot]({{ site.url }}/Images/compiler-1.en.png)
+![compiler window screenshot](images/compiler-1.png)
 The options should be self-explanatory. There's also a paragraph in the help file: enter `compile a script` in the index.
 
 ### IronAHK
