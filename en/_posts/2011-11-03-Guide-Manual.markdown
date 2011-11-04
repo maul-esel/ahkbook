@@ -15,6 +15,8 @@ For German, there's a complete translation of the AutoHotkey_L manual available 
 
 There are no helpfiles for AutoHotkey v2 and IronAHK right now. For IronAHK, you can use the AutoHotkey classic helpfile for most cases, AutoHotkey v2 users should check out the [Autohotkey v2 thread](http://www.autohotkey.com/forum/topic70266.html) for changes.
 
+AutoHotkey\_H docs are also available online at [www.autohotkey.net](http://www.autohotkey.net/~HotKeyIt/AutoHotkey/).
+
 ## How to use the help file
 Running the above file gives you the usual WindowsHelp window. You can navigate to the right using the `content` tree, entering keywords in the `index` or the `search` tab, and save the most used pages in the `Favorites` tab.
 
