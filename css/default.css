@@ -10,7 +10,7 @@ h1 {
 
 body > * {
 	margin-left: 20%;
-	margin-right: 20%
+	margin-right: 20%;
 }
 
 h2 {
@@ -59,6 +59,7 @@ img {
 	border: solid gray 2px;
 	text-align: center;
 	display: block;
+	max-width: 1024px
 }
 
 code {
