@@ -12,7 +12,7 @@ To contribute, do the following:
 	* fork the project
 	* **IMPORTANT: change the `url` setting in `_config.yml` to `'http://[your username].github.com/ahkbook'`**
 	* do your changes and additions, optionally creating new branches
- 	* if you have access to a Linux / Ubuntu / ... system or VM, ***consider*** installing Jekyll locally
+ 	* if you have access to a Linux / Ubuntu / ... system or VM, ***consider*** installing Jekyll locally. If you do so, you might temporarily change the `url` setting to the path to your local repo to enable offline-tests.
 	* test if it works
 	* send me a pull request when you're done
 * otherwise send me your comments, ideas, patches, ... via the AutoHotkey forums or PM me there.
@@ -20,7 +20,7 @@ To contribute, do the following:
 In either way,
 
 * add your posts
-* author posts mentioned in the index
+* author posts mentioned in the index (those in red)
 * improve and complete existing posts
 * translate posts in other languages (place them in a corresponding folder, such as `de/_posts` or `fr/_posts`).
 * add yourself to the list of contributors with a website of your choice ;-)
@@ -31,7 +31,7 @@ This doesn't mean you need to install Jekyll, the contents are automatically pro
 With Jekyll, you can write your posts in HTML, Markdown (like this file) or Textile.
 
 ### Another important note:
-AutoHotkey syntax highlighting via `{% highlight ahk %}` currently doesn't work. I created an issue on Jekyll to address this. If anyone (a Ruby programmer?) knows how to fix this, please do so and send the author a pull request.
+AutoHotkey syntax highlighting via `{% highlight ahk %}` currently doesn't work on Github Pages (but it does locally). I sent a message to github support to adress this.
 
 Issues:
 
