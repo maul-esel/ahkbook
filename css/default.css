@@ -134,3 +134,21 @@ ol li {
 	font-weight: normal;
 }
 
+table {
+    width: 100%;
+    
+}
+td, th {
+    
+    border-radius: 7px;
+    padding: 4px;
+}
+
+td { 
+    border: 1px solid #BBB; 
+}
+th {
+    border: 2px solid #CCD;
+}
+
+
