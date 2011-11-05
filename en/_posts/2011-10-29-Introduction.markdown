@@ -7,7 +7,7 @@ permalink: /en/Introduction.html
 # Introduction
 
 ## What is AutoHotkey?
-AutoHotkey is a powerful scripting language for Windows. It allows you to easily manipulate other programs, create custom hotkeys and "hotstrings", interact with the user, read, create and manage files and a lot more.
+AutoHotkey is a powerful scripting language for Windows, focused on **auto**mation and **hotkeys**. It allows you to easily manipulate other programs, create custom hotkeys and "hotstrings", interact with the user, read, create and manage files and a lot more.
 
 With AutoHotkey, you can also use big parts of the Windows API, interact with Web applications, use COM and more.
 
