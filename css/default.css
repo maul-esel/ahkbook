@@ -1,3 +1,15 @@
+/* -------------------------------------------------- 
+ *  Style sheet for ahkbook
+ *  Visit the ahkbook repo on  http://github.com
+ *  Loosely based on Jekyll's default style sheet
+ *  Modified by Frankie Bagnardi (http://aboutscript.com)
+ */
+ 
+
+
+
+/* -------------------------------------------------- 
+   Global and Top Level -------------------------- */
 * {
 	margin: 0;
 	padding: 0;
@@ -23,6 +35,11 @@ body {
 	box-shadow: 0px 0px 60px #fff;
 }
 
+
+
+
+/* -------------------------------------------------- 
+   Headings  --------------------------------------- */
 h1 {
 	color: #070707;
 }
@@ -43,6 +60,10 @@ h3 {
 	font-weight: 700;
 }
 
+
+/* -------------------------------------------------- 
+   Links ----------------------------------------- */
+
 a:link, a:visited {
 	color: #1F647F;
 	text-decoration: none;
@@ -57,6 +78,7 @@ a:hover, a:focus {
 /* The three icons are made by Yusuke Kamiyamane
    http://p.yusukekamiyamane.com/
    License: http://creativecommons.org/licenses/by/3.0/  */
+
 
 a[href*="://"] {
 	padding-right: 20px;
@@ -83,6 +105,10 @@ a[href*=".github.com"] /* gh-pages, help, etc. */
     background-image: url(github.png);
 }
 
+
+c
+/* -------------------------------------------------- 
+   References ------------------------------------ */
 
 cite {
 	font-style: italic
@@ -115,12 +141,17 @@ img {
 	display: block;
 }
 
+
 code {
 	padding: 2.5px;
 	margin: 2.5px
 }
 
-ul,ol {
+
+/* -------------------------------------------------- 
+   Lists  --------------------------------------- */
+
+ul, ol {
 	margin-left: 3%;
 }
 
@@ -134,10 +165,15 @@ ol li {
 	font-weight: normal;
 }
 
+t
+/* -------------------------------------------------- 
+   Tables  --------------------------------------- */
+
 table {
     width: 100%;
     
 }
+
 td, th {
     
     border-radius: 7px;
@@ -147,8 +183,11 @@ td, th {
 td { 
     border: 1px solid #BBB; 
 }
+
 th {
     border: 2px solid #CCD;
 }
 
 
+/* END OF STYLE SHEET */
+-------------------
