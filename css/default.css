@@ -98,13 +98,17 @@ a[href*="://"] {
 	background-image: url(external.png);
 }
 
-a[href^="http://www.autohotkey.com"] 
+a[href^="http://www.autohotkey.com"],
+a[href^="http://de.autohotkey.com"],
+a[href^="http://autohotkey.free.fr"],
+a[href^="http://cn.autohotkey.com"]
 {
 	background-image: url(docs.png);
 }
 
 a[href^="http://www.autohotkey.net"],
-a[href^="http://www.autohotkey.com/forum"] 
+a[href^="http://www.autohotkey.com/forum"],
+a[href^="http://de.autohotkey.com/forum"] 
 {
 	padding-right: 16px;
 	background-image: url(forum.png);
