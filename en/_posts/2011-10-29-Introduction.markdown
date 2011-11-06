@@ -55,6 +55,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 6. [Let's start](Lets-start.html)
 
+	- [the auto-execute section](auto-execute-section.html)
 	- [Hotkeys]()
 		- [context-sensitive hotkeys]()
 		- [autofire and toggle hotkeys]()
