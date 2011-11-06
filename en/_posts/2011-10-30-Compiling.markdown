@@ -17,7 +17,7 @@ This is important in terms of performance: compiled AutoHotkey code isn't a lot 
 ### Decompiling
 Another important aspect of this "compilation" process is that scripts can easily be decompiled. Compiled AutoHotkey scripts can be decompiled by downloading the "Exe2Ahk" tool from [AutoHotkey's download page](http://www.autohotkey.com/download/OtherDownloads.htm).
 
-AutoHotkey classic includes a "no-decompile" switch in the compiler to make decompilation more difficult. This prevents the above tool from decompiling a script. However, this doesn't make your code safe: anyone who spends some time on it will be able to decompile your script. This is why the "no-decompile" option is no longer present in newer AutoHotkey versions.
+AutoHotkey classic includes a "no-decompile" switch and a password protection in the compiler to make decompilation more difficult. This prevents the above tool from decompiling a script. However, this doesn't make your code safe: anyone who spends some time on it will be able to decompile your script. This is why the "no-decompile" option is no longer present in newer AutoHotkey versions.
 
 On the forum, you might find ["HotkeyCamo"](http://www.autohotkey.com/forum/viewtopic.php?t=49952), a closed-source compiler for AutoHotkey that claims to do real compilation. However, this tool seems to not have been updated for a while and doesn't support latest AutoHotkey versions.
 
