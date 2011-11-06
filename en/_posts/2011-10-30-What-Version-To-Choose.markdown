@@ -21,7 +21,7 @@ Bugs are usually fixed quickly (given you report them), however, sometimes a cha
 
 AutoHotkey\_L has hundreds of new features, such as Arrays / Objects + classes (we'll deal with them later), native COM (another topic we'll discuss), but also features useful for hotkey scripters, and last but not least 64bit support.
 
-AutoHotkey\_L is offered in an ANSI and an Unicode version. This describes a different script encoding. You may not know a lot about it, but Unicode often makes dealing with advanced topics (Windows API), but also hotkeys with special characters (&auml;, &ouml;, &uuml;, &szlig;, &Oslash;, Њ, ڵ, ...) easier. On the other side, *some* old scripts from the forum might have minor issues.
+AutoHotkey\_L is offered in an ANSI and an Unicode version. This describes a different script encoding \([learn more...](http://www.joelonsoftware.com/printerFriendly/articles/Unicode.html "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets \(No Excuses!\)")\). You may not know a lot about it, but Unicode often makes dealing with advanced topics (Windows API), but also hotkeys with special characters (&auml;, &ouml;, &uuml;, &szlig;, &Oslash;, Њ, ڵ, ...) easier. On the other side, *some* old scripts from the forum might have minor issues.
 
 ### IronAHK
 This fork is a complete rewrite of AutoHotkey classic in C# (by polyethene and other contributors), which will enable cross-platform AutoHotkey. You'll be able to compile scripts into regular .NET assemblies, plus it will offer new features such as Arrays / Objects and Unicode. It will require (of course) the .NET framework or [Mono](http://www.mono-project.com/Main_Page) to be installed.
