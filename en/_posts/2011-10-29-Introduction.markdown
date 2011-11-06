@@ -37,15 +37,14 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 ***Note:*** This list and its order are not set in stone. Feel free to change it.
 
 1. [What AutoHotkey version to choose?](What-Version-To-Choose.html)
-2. [Coding Environment](Coding-Environment.html)
-3. [First steps](First-steps.html)
+2. [First steps](First-steps.html)
 	- [Your first script](Your-First-Script.html)
 	- [Compiling a script](Compiling.html)
 
-4. [A guide to the manual](Guide-Manual.html)
-5. [A guide to the AutoHotkey forums](Guide-Forums.html)
+3. [A guide to the manual](Guide-Manual.html)
+4. [A guide to the AutoHotkey forums](Guide-Forums.html)
 
-6. [some basic things to understand](Basic-Concepts.html)
+5. [some basic things to understand](Basic-Concepts.html)
 	- [#Directives](Directives.html)
 	- [Commands vs. Functions](Commands-functions.html)
 	- [statements](Statements.html)
@@ -54,34 +53,47 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [Out- & InputVars]()
 		- [ByRef Variables]()
 
-7. [Let's start]()
-	- [Hotkeys & Co.]()
-	- [Basic User Interaction: MsgBox & co.]()
-	- [Repeating things (Loop, While, For, ...)]()
+6. [Let's start]()
+
+	- [Hotkeys]()
+		- [context-sensitive hotkeys]()
+		- [autofire and toggle hotkeys]()
+	- [Labels & Co.]()
+
+		- [useful tools: TillaGoTo]()
+	- [Basic User Interaction: MsgBox & Co.]()
+	- [Repeating things (Loop, While, ...)]()
 	- [GUI stuff]()
+
+		- [useful tools: Gui creators]()
 	- [File management]()
 	- [Storing data]()
 		- [INI]()
 		- [Registry]()
+	- [operators]()
+		- [a bit of maths]()
+		- [working with strings]()
+	- [multiple conditions]()
 
-10. [Documenting your code]()
+7. [useful tools: Choosing a better editor / IDE]()
+
+8. [Documenting your code]()
 	- [Why and how to document your code]()
-	- [tools (NDocs & GenDocs)]()
+	- [useful tools: NDocs & GenDocs]()
 
-11. [User-defined functions]()
-
+9. [User-defined functions]()
 	- [libraries and stdLib conventions]()
+	- [The standard library collection]()
 
-12. [Into the web: downloading, HttpRequests, httpQuery() and more]()
+10. [Into the web: downloading, HttpRequests, httpQuery() and more]()
 
-13. [A bit of advanced stuff]()
+11. [A bit of advanced stuff]()
 	- [DllCalls to Windows API]()
 	- [NumPut, NumGet, VarSetCapacity & stuff]()
-	- [Working with bits, bytes etc. (&&, ||, >>, <<, ...)]()
+	- [Working with bits, bytes etc. (&, |, >>, <<, ...)]()
 	- [Streams and file headers]()
 
 14. [custom GUI controls]()
-
 	- [embedding browser in GUI etc.]()
 
 15. [COM]()
@@ -99,4 +111,3 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
     - [CWindow library (+ C# converter)]()
     - [Aero Library]()
     - [gdi+]()
-	- [The standard library collection]()
