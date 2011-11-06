@@ -14,9 +14,11 @@ Instead, the compiler (Ahk2Exe.exe) just packs the script code together with a s
 ### Performance
 This is important in terms of performance: compiled AutoHotkey code isn't a lot faster that uncompiled. So compiling is useful for scripts you carry with you, on computers without AutoHotkey installed, but not for making your scripts faster.
 
-### Uncompiling
+### Decompiling
 Another important aspect of this "compilation" process is that scripts can easily be decompiled. Compiled AutoHotkey scripts can be decompiled by downloading the "Exe2Ahk" tool from [AutoHotkey's download page](http://www.autohotkey.com/download/OtherDownloads.htm).
-Previous AutoHotkey versions (and AutoHotkey classic) include an "no-decompile" switch in the compiler to make decompilation more difficult. This prevents the above tool from decompiling a script. However, this doesn't make your code safe: anyone who spends some time on it will be able to decompile your script. This is why the "no-decompile" option is no longer present in newer AutoHotkey versions.
+
+AutoHotkey classic includes a "no-decompile" switch in the compiler to make decompilation more difficult. This prevents the above tool from decompiling a script. However, this doesn't make your code safe: anyone who spends some time on it will be able to decompile your script. This is why the "no-decompile" option is no longer present in newer AutoHotkey versions.
+
 On the forum, you might find ["HotkeyCamo"](http://www.autohotkey.com/forum/viewtopic.php?t=49952), a closed-source compiler for AutoHotkey that claims to do real compilation. However, this tool seems to not have been updated for a while and doesn't support latest AutoHotkey versions.
 
 ### IronAHK
@@ -35,7 +37,7 @@ If you have run the installer, right-click the script file and select `Compile S
 
 To have more control about the output, run the compiler from Windows Explorer (it's usually `C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe`) or the start menu. You will see a window appear that allows you to customize the input- and output file, the icon, and, in AutoHotkey classic, the password.
 ![compiler window screenshot](images/compiler-1.png)
-The options should be self-explanatory. There's also a paragraph in the help file: enter `compile a script` in the index.
+The options should be self-explanatory. There's also a paragraph in the help file: enter <cite>compile a script</cite> in the index.
 
 ### IronAHK
 As IronAHK doesn't have a GUI compiler yet, use the command line / terminal and run `ironahk /out example.exe script.ahk`.
