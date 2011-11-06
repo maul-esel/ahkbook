@@ -18,6 +18,9 @@
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
+
+	letter-spacing: 1.5px;
+	line-height: 175%;
 }
 
 body {
@@ -40,8 +43,10 @@ body {
 	box-shadow: 0px 0px 60px #888;
 }
 
-
-
+.content > p , li {
+	margin-right: 20px;
+	margin-left: 20px;
+}
 
 /* -------------------------------------------------- 
    Headings  --------------------------------------- */
@@ -170,6 +175,8 @@ pre {
 
 pre * {
 	font-family: "Droid Sans Mono", Courier, monospace;
+	letter-spacing: 1.1px;
+	line-height: 125%;
 }
 
 
@@ -183,6 +190,11 @@ ul, ol {
 ol {
 	font-style: italic;
 	font-weight: bold;
+	list-style-type: decimal;
+}
+
+ul {
+	list-style-type: disc;
 }
 
 ol li {
