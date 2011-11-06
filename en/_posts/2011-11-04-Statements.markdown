@@ -28,6 +28,11 @@ If the thing you want to do if a condition applies is just one line (as in line 
 
 If something takes more than one line, as in the last `else`, wrap it in curly braces. You may also put the first brace on the same line as the `if` / `else` or indent it.
 
+## More `if`
+AutoHotkey classic, AutoHotkey_L and AutoHotkey_H also support several "if-like" statements such as `IfEqual`, `IfLess`, `IfGreater`, `IfLessOrEqual`, `IfWinActive`, `IfWinExist`, `IfWinNotActive`, `IfWinNotExist`, `IfExist`, `IfInString`, ... . Using those is discouraged today as they are often considered "bad style" and they're about to be removed in AutoHotkey v2, AutoHotkey\_H v2 and IronAHK. All of them can be worked around by using the "normal" `if` plus a function.
+
+A special case is `IfMsgBox`, which can't be worked around in AutoHotkey classic, AutoHotkey\_L and AutoHotkey\_H. Still it will be replaced by something else in AutoHotkey v2, IronAHK and AutoHotkey\_H v2. We'll look at this further when we deal with the specifics of th `MsgBox` command.
+
 ## return
 Another statement in AutoHotkey is `return`. It has 2 purposes:
 * stop execution
