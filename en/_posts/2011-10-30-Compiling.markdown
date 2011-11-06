@@ -44,4 +44,4 @@ As IronAHK doesn't have a GUI compiler yet, use the command line / terminal and 
 Currently, compiling AutoHotkey v2 scripts is not possible. This will be added in the final version (or earlier).
 
 ### AutoHotkey_H
-Compiling of AutoHotkey\_H code will be included in the next release.
+Compiling of AutoHotkey\_H code can be done by downloading [this modified version](https://github.com/HotKeyIt/Ahk2Exe/zipball/master) of the AutoHotkey_L compiler. Unzip the files included in the AutoHotkey\_H package into the compiler directory and run the compiler.
