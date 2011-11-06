@@ -6,11 +6,10 @@ permalink: /en/Your-First-Script.html
 # Your first script
 
 ## Let's start
-Now you should have chosen your AutoHotkey version, your editor, and you should have set up both.
-We'll do our first script now.
+You should have chosen and installed your AutoHotkey version now. We'll do our first script.
 
 ## Create a script file
-If you have used the AutoHotkey classic or AutoHotkey\_L installer, right-click on your desktop or any folder and select New > AutoHotkey Script from the context menu. Open the newly created file in your editor. If you haven't run an installer, just open your editor and save it as a file with the extension ".ahk".
+If you have used the AutoHotkey classic or AutoHotkey\_L installer, right-click on your desktop or any folder and select New > AutoHotkey Script from the context menu. Open the newly created file in your editor. If you haven't run an installer, just open your favorite editor (or use Windows Notepad) and save it as a file with the extension ".ahk".
 
 In the editor, type the following code:
 {% highlight ahk linenos %}; any AutoHotkey version
@@ -28,7 +27,7 @@ Make sure you chose the correct encoding. If you have installed AutoHotkey class
 
 ---
 ## Execute your script
-If you have run an installer, just double-click the file for executing it. Otherwise use the command line to run `[Path/To/YourAutoHotkey].exe "[Path/to/your/script].ahk"`.
+If you have run an installer, just double-click the file for executing it. Otherwise use the command line to run `[Path/To/YourAutoHotkey].exe "[Path/to/your/script].ahk"`. You can also drag your script file on the executable in Windows Explorer or on your desktop.
 
 For IronAHK on Linux / Ubuntu / Mac, run `mono IronAHK.exe [Path/to/our/script].ahk`.
 
