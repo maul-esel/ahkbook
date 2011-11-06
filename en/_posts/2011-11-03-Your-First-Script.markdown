@@ -92,7 +92,7 @@ The allowed escape sequences are:
 * `` `a `` - an **alert (bell)**, which corresponds to Ascii value 7. It can also be manifest in some applications by typing Control+G. 
 * `` `f `` - a **formfeed**, which corresponds to Ascii value 12. It can also be manifest in some applications by typing Control+L.
 * `""` - Within an [expression](), two consecutive quotes enclosed inside a literal string resolve to a single literal **quote**.
-* `` `" `` - This replaces the above in AutoHotkey v2.
+* `` `" `` or `` `' `` - This replaces the above in AutoHotkey v2.
 
 - - -
 So now we can do the above example:
