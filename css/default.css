@@ -28,7 +28,8 @@ body {
 	font-family: Tahoma,
              "DejaVu Sans",
              sans-serif;
-        background-color: #DDD;
+    background-color: #DDD;
+	text-align: justify
 }
 
 .content {
