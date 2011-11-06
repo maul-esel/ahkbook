@@ -47,7 +47,7 @@ As mentioned above, it is often useful to let your "bug" be confirmed in "Ask fo
 This is the subforum for posting your wishes *on AutoHotkey*, it is not intended for wishes about other scripts. Think about your wish twice before posting: does it make sense? Is it easy to implement? Is it worth to be implemented? Can it be done by a script? etc...
 
 ### Getting information on new versions and other events (Announcements)
-This forum holds threads about announcements by AutoHotkey developers and moderators. You can't open a thread here, but comment on the existing threads. Today, mot of the new threads are about new versions of AutoHotkey\_L.
+This forum holds threads about announcements by AutoHotkey developers and moderators. You can't open a thread here, but comment on the existing threads. Today, most of the new threads are about new versions of AutoHotkey\_L.
 
 ### Sharing cool software (Utilities and Resources)
 Here you can share cool software, websites etc. you have found, even if it is not directly related to AutoHotkey.
@@ -55,15 +55,20 @@ Here you can share cool software, websites etc. you have found, even if it is no
 ### Offtopic (General Chat)
 In "General Chat", you can post about everything you want. You can discuss on what happens in other forums, the web and the rest of the world.
 
+## Registering
+You can post in the english forum without registration. There's no problem with that, but *please* choose ***any*** nickname and enter it in the field (and do not leave it empty). This makes discussion easier, as otherwise there are sometimes several users named <cite>Guest</cite> discussing with each other.
+
+If you visit the forum often, or you plan to post in "Scripts & Functions", consider a registration. This makes you identifyable by other users (nobody else can post under your nickname) and offers you the possibility to edit posts later or communicate via PM.
+
 ## Terms of Use
-When posting anywhere in the forums, please ensure you don't violate it's [Terms of use]().
+When posting anywhere in the forums, please ensure you don't violate its [Terms of use]().
 
 ## Hosting code
 There are pretty much ways to host your code. There's [autohotkey.net](http://www.autohotkey.net), a site which offers free FTP hosting (just create an account there) and a Pastebin, but only for AutoHotkey-related content.
 
-More and more users also use [github](https://www.github.com), where you can host open source code for free (or closed-source for money), regardless of the coding language. Github is also used to [host this site](https://www.github.com/maul-esel/ahkbook/). Usage is a little more complicate, but you'll get used to it.
+More and more users also use [github](https://www.github.com), where you can host open source code for free (or closed-source for money), regardless of the coding language. Github is also used to [host this site](https://www.github.com/maul-esel/ahkbook/). Usage is a little more complicate, but you'll get used to it, and it has a lot of features.
 
-Of course, you can also use any other hosting site, such as SkyDrive, Dropbox, or include the code directly in your forum posts. If doing so, please enclose the code in `[code] ; my code [/code]` tags.
+Of course, you can also use any other hosting site, such as SkyDrive, Dropbox, or include the code directly in your forum posts. If doing so, please enclose the code in `[code] ; my code [/code]` tags. This also applies when posting in "Ask for Help".
 
 ## IRC
 There's also an IRC channel for AutoHotkey available. Just check out [this post](http://www.autohotkey.com/forum/viewtopic.php?t=28311).
