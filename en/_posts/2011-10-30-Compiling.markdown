@@ -27,7 +27,7 @@ The second aspect of this fact is that in IronAHK, compiling improves performanc
 Since the latest AutoHotkey_L versions, the compiler shipped with the installer is written in AutoHotkey. You can find the source [here](http://www.autohotkey.com/forum/viewtopic.php?t=74816).
 
 ### Compile_AHK
-Another great tool is [Compile_AHK II](http://www.autohotkey.com/forum/viewtopic.php?t=22975), a tool to make compilation easier, allowing you to include resources in your script, setting it's icons and execution privileges.
+Another great tool is [Compile_AHK II](http://www.autohotkey.com/forum/viewtopic.php?t=22975), a tool to make compilation easier, allowing you to include resources in your script, setting its icons and execution privileges.
 
 ## Compiling
 ### AutoHotkey classic and AutoHotkey_L
