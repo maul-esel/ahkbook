@@ -53,11 +53,14 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [Out- & InputVars]()
 		- [ByRef Variables]()
 
-6. [Let's start]()
+6. [Let's start](Lets-start.html)
 
 	- [Hotkeys]()
 		- [context-sensitive hotkeys]()
 		- [autofire and toggle hotkeys]()
+	- [Hotstrings]()
+
+		- [remapping]()
 	- [Labels & Co.]()
 
 		- [useful tools: TillaGoTo]()

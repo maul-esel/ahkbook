@@ -16,7 +16,7 @@ In the editor, type the following code:
 MsgBox Hello, World!
 {% endhighlight %}
 
-Save your file now.
+Save your file again now.
 
 ---
 ### Note:
