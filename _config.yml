@@ -1,4 +1,4 @@
 pygments: true
 LSI: true
 permalinks: /:title
-url: 'http://maul-esel.github.com/ahkbook'
+url: 'file:///home/dominik/Dev/ahkbook'
