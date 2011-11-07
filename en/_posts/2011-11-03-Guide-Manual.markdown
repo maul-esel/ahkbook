@@ -36,4 +36,4 @@ Also common is a list of related stuff that helps you if the current page is not
 
 Last but not least, there are examples almost everywhere. Remember to read the comments, as they sometimes contain instructions how to use the sample.
 
-Also very useful is the [alphabetical list of commands, functions and directives](http://http://www.autohotkey.com/docs/commands.htm) ([AutoHotkey\_L](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/index.htm)).
+Also very useful is the [alphabetical list of commands, functions and directives](http://www.autohotkey.com/docs/commands.htm) ([AutoHotkey\_L](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/index.htm)).
