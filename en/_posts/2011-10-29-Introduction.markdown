@@ -64,7 +64,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [remapping]()
 	- [Labels & Co.](Labels.html)
 
-		- [useful tools: TillaGoTo]()
+		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
 	- [Basic User Interaction: MsgBox & Co.]()
 	- [Repeating things (Loop, While, ...)]()
 	- [GUI stuff]()
