@@ -62,7 +62,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Hotstrings]()
 
 		- [remapping]()
-	- [Labels & Co.]()
+	- [Labels & Co.](Labels.html)
 
 		- [useful tools: TillaGoTo]()
 	- [Basic User Interaction: MsgBox & Co.]()
