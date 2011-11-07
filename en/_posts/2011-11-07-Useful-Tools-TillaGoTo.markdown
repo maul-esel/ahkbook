@@ -6,11 +6,6 @@ permalink: /en/Useful-Tools-TillaGoTo.html
 
 # Useful tools: TillaGoTo
 
-## Useful tools
-Throughout this book, we will have a short look at some useful tools & scripts for developing AutoHotkey.
-This might not interest you now if you're just starting with AutoHotkey, scripting and programming.
-In this case, just **skip these posts**. You might want to check them out later when writing large scripts.
-
 ## TillaGoTo
 [TillaGoTo](http://www.autohotkey.com/forum/viewtopic.php?t=41575) is a script written by [TheGood](http://www.autohotkey.net/~TheGood/).
 You can use it with Scintilla-based editors, such as Notepad++, Scite, Scite4AutoHotkey, Notepad2 and others.
