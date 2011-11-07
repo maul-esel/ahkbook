@@ -33,7 +33,7 @@ In the beginnings, you should of course start with easy things. But you're not l
 
 You can use AutoHotkey for game scripts, for quick macros, for tasks that take hours, for deep system modifications, for automating other applications through their window or through other interfaces, and a lot more.
 
-## Index:
+## Index
 ***Note:*** This list and its order are not set in stone. Feel free to change it.
 
 1. [What AutoHotkey version to choose?](What-Version-To-Choose.html)
