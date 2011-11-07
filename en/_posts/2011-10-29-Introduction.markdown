@@ -69,7 +69,10 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
 	- [Basic User Interaction: MsgBox & Co.]()
-	- [Repeating things (Loop, While, ...)]()
+	- [Introducing variables in AutoHotkey]()
+		- [expressional vs. traditional style]()
+		- [the power of builtin variables]()
+	- [Repeating things]()
 	- [GUI stuff]()
 
 		- [useful tools: Gui creators]()
@@ -82,39 +85,37 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [working with strings]()
 	- [multiple conditions]()
 
-7. [useful tools: Choosing a better editor / IDE]()
-
-8. [Documenting your code]()
+7. [Documenting your code]()
 	- [Why and how to document your code]()
 	- [useful tools: NDocs & GenDocs]()
 
-9. [User-defined functions]()
+8. [User-defined functions]()
 	- [libraries and stdLib conventions]()
 	- [The standard library collection]()
 
-10. [Into the web: downloading, HttpRequests, httpQuery() and more]()
+9. [Into the web: downloading, HttpRequests, httpQuery() and more]()
 
-11. [A bit of advanced stuff]()
+10. [A bit of advanced stuff]()
 	- [DllCalls to Windows API]()
 	- [NumPut, NumGet, VarSetCapacity & stuff]()
 	- [Working with bits, bytes etc. (&, |, >>, <<, ...)]()
 	- [Streams and file headers]()
 
-14. [custom GUI controls]()
+11. [custom GUI controls]()
 	- [embedding browser in GUI etc.]()
 
-15. [COM]()
+12. [COM]()
 	- [a short introduction]()
 	- [StdLib & native COM]()
 	- [automating IE & FF]()
 	- [automating Office]()
 	- [interfaces]()
 
-16. [OOP]()
+13. [OOP]()
 	- [Objects & Arrays]()
 	- [Classes]()
 
-17. [Libraries]()
+14. [Libraries]()
     - [CWindow library (+ C# converter)]()
     - [Aero Library]()
     - [gdi+]()
