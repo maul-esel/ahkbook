@@ -90,6 +90,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [useful tools: NDocs & GenDocs]()
 
 8. [User-defined functions]()
+	- [variable scopes]()
 	- [libraries and stdLib conventions]()
 	- [The standard library collection]()
 
