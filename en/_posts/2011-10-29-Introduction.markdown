@@ -69,8 +69,8 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
 	- [Basic User Interaction: MsgBox & Co.]()
-	- [Introducing variables in AutoHotkey]()
-		- [expressional vs. traditional style]()
+	- [Variables, commands and function stuff](Variables-functions-commands.html)
+
 		- [the power of builtin variables]()
 	- [Repeating things]()
 	- [GUI stuff]()
