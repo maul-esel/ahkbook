@@ -68,10 +68,10 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Labels & Co.](Labels.html)
 
 		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
-	- [Basic User Interaction: MsgBox & Co.]()
 	- [Variables, commands and function stuff](Variables-functions-commands.html)
 
 		- [the power of builtin variables]()
+	- [Basic User Interaction: MsgBox & Co.]()
 	- [Repeating things]()
 	- [GUI stuff]()
 
