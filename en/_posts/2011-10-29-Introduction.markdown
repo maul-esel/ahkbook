@@ -37,6 +37,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 ***Note:*** This list and its order are not set in stone. Feel free to change it.
 
 1. [What AutoHotkey version to choose?](What-Version-To-Choose.html)
+
 2. [First steps](First-steps.html)
 
 	- [Your first script](Your-First-Script.html)
@@ -45,22 +46,17 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Compiling a script](Compiling.html)
 
 3. [A guide to the manual](Guide-Manual.html)
+
 4. [A guide to the AutoHotkey forums](Guide-Forums.html)
 
 5. [some basic things to understand](Basic-Concepts.html)
-	- [#Directives](Directives.html)
-	- [Commands vs. Functions](Commands-functions.html)
-	- [statements](Statements.html)
-	- [Variable modes]()
-		- [Expressional vs. Traditional]()
-		- [Out- & InputVars]()
-		- [ByRef Variables]()
+	- [#Directives](Directives.html)<!-- content to be moved to "Influencing AutoHotkey" -->
+	- [statements](Statements.html)<!-- content to be moved / deleted -->
 
 6. [Let's start](Lets-start.html)
-
 	- [the auto-execute section](auto-execute-section.html)
 	- [Hotkeys]()
-		- [context-sensitive hotkeys]()
+		- [context-sensitive hotkeys]() <!-- including #if & friends, but without covering in detail || or just #IfWinActive + #if later?  -->
 		- [autofire and toggle hotkeys]()
 	- [Hotstrings]()
 
@@ -73,9 +69,10 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [the power of builtin variables](builtin-variables.html)
 	- [Basic User Interaction: MsgBox & Co.]()
 	- [Repeating things]()
+	- [Influencing AutoHotkey]() <!-- directives! -->
 	- [GUI stuff]()
 
-		- [useful tools: Gui creators]()
+		- [useful tools: Gui creators]()<!-- take from Coding-Environment.markdown -->
 	- [File management]()
 	- [Storing data]()
 		- [INI]()
@@ -89,7 +86,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Why and how to document your code]()
 	- [useful tools: NDocs & GenDocs]()
 
-8. [User-defined functions]()
+8. [User-defined functions]() <!-- including byRef -->
 	- [variable scopes]()
 	- [libraries and stdLib conventions]()
 	- [The standard library collection]()
