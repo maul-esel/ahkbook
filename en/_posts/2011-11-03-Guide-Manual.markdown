@@ -13,9 +13,11 @@ For AutoHotkey\_L, the online version is at [www.autohotkey.net/~Lexikos/AutoHot
 
 For German, there's a complete translation of the AutoHotkey_L manual available [in the german forum](http://de.autohotkey.com/forum/viewtopic.php?t=8861).
 
-There are no helpfiles for AutoHotkey v2 and IronAHK right now. For IronAHK, you can use the AutoHotkey classic helpfile for most cases, AutoHotkey v2 users should check out the [Autohotkey v2 thread](http://www.autohotkey.com/forum/topic70266.html) for changes.
+Some (incomplete) IronAHK docs are [here](http://www.ironahk.net/docs/). For most undocumented cases, you can use the AutoHotkey classic helpfile.
 
-AutoHotkey\_H docs are also available online at [www.autohotkey.net](http://www.autohotkey.net/~HotKeyIt/AutoHotkey/).
+There are no helpfiles for AutoHotkey v2  and AutoHotkey\_H v2 right now. Users should check out the [Autohotkey v2 thread](http://www.autohotkey.com/forum/topic70266.html) for changes.
+
+AutoHotkey\_H docs are also available online at [autohotkey.net](http://www.autohotkey.net/~HotKeyIt/AutoHotkey/).
 
 ## How to use the help file
 Running the above file gives you the usual WindowsHelp window. You can navigate to the right using the `content` tree, entering keywords in the `index` or the `search` tab, and save the most used pages in the `Favorites` tab.
