@@ -70,7 +70,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
 	- [Variables, commands and function stuff](Variables-functions-commands.html)
 
-		- [the power of builtin variables]()
+		- [the power of builtin variables](builtin-variables.html)
 	- [Basic User Interaction: MsgBox & Co.]()
 	- [Repeating things]()
 	- [GUI stuff]()
