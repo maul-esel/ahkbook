@@ -41,6 +41,7 @@ The options should be self-explanatory. There's also a paragraph in the help fil
 
 ### IronAHK
 As IronAHK doesn't have a GUI compiler yet, use the command line / terminal and run `ironahk /out example.exe script.ahk`.
+More information to be found on [ironahk.net](http://www.ironahk.net/docs/overview/compiling/).
 
 ### AutoHotkey v2
 Currently, compiling AutoHotkey v2 scripts is not possible. This will be added in the final version (or earlier).
