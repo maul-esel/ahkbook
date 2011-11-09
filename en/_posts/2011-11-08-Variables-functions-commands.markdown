@@ -112,7 +112,7 @@ To prevent you from doing the common <cite>traditional vs. expressional</cite> m
 
 <blockquote><!-- use html as markdown can't handle liquid code tags in blockquote -->
 <h4>When are quotation marks used with commands and their parameters?</h4>
-Double quotes (\") have special meaning only within expressions. In all other places, they are treated literally as if they were normal characters. However, when a script launches a program or document, the operating system usually requires quotes around any command-line parameter that contains spaces, such as in this example:
+Double quotes (") have special meaning only within expressions. In all other places, they are treated literally as if they were normal characters. However, when a script launches a program or document, the operating system usually requires quotes around any command-line parameter that contains spaces, such as in this example:
 {% highlight ahk linenos %}Run, Notepad.exe "C:\My Documents\Address List.txt"{% endhighlight %}
 
 <h4>When exactly are variable names enclosed in percent signs?</h4>
