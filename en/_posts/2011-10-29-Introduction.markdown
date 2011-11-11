@@ -80,7 +80,9 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [Registry]()
 	- [operators]()
 		- [a bit of maths]()
-		- [working with strings]()
+	- [working with strings]()
+	- [handling errors]() <!-- ErrorLevel + try/catch/throw -->
+	- [Regular Expressions]()
 
 7. [Documenting your code]()
 	- [Why and how to document your code]()
