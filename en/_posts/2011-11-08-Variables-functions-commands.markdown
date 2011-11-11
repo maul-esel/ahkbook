@@ -18,6 +18,20 @@ This simply creates a variable named `MyVar` and assigns the string <cite>Hello!
 If this is put in the auto-execute section, it should automatically be available to the rest of the auto-execute section below and all labels.
 There's more to be said about [variable scoping]() when we deal with functions later.
 
+### Concat text, numbers and variables
+If you want to concat text, numbers or variables in tradtional mode, you needn't to anything (except leave a space between 2 percent signs).
+
+In expressional mode, there's the *concat operator*, which is simply a dot (`.`).
+However, using it is **optional**, you may just leave a space in there.
+{% highlight ahk linenos %}; any AutoHotkey version except AutoHokey v2 and AutoHotkey_H v2.
+name := "Tim"
+message = %user% is very clever! ; tradtional concat
+{% endhighlight %}
+{% highlight ahk linenos %}; any AutoHotkey version
+votes := 12
+result := "Votes for " . user . ": " votes ; using 2 explicit concats and 1 implicit
+{% endhighlight %}
+
 ### \#MustDeclare
 ...
 
@@ -28,9 +42,9 @@ Referencing a variable is basicly easy. However, there's one big pitfall beginne
 We'll start with traditional:
 {% highlight ahk linenos %}
 ; any AutoHotkey version except AutoHokey v2 and AutoHotkey_H v2.
-MyVar = Hello! ; traditional assignment using "=", non-quoted strings
-MsgBox The content of "MyVar": %MyVar% ; command call (traditional)
-My2ndVar =  %MyVar% ; traditional assignment with a variable
+MyVar = Hello! ; traditional assignment: using "=", no quotes
+MsgBox The content of "MyVar": %MyVar% ; command (traditional)
+My2ndVar =  %MyVar% ; traditional assignment: % around a variable
 {% endhighlight %}
 As you see, usually when referencing a variable, it is delimited by percent-signs.
 Literal text does not need to be enclosed in quotes, if they are present, they're taken as literal quotes. But that is not always the case.
@@ -49,12 +63,16 @@ As you see, in expressional mode variables are **not** enclosed in percent signs
 Literal text must be enclosed in double-quotes (AutoHotkey v2 and AutoHotkey\_H v2 also support single quotes).
 
 ## commands & functions
-As you saw above, commands use the traditional mode by default, functions use expressional mode.
+In AutoHotkey, there are 2 ways of executing code: *commands* and *functions*.
+
+As you saw above, commands (like `MsgBox`) use the traditional mode by default, functions (like `IsLabel()`) use expressional mode.
 Additionally, in function calls, parameters are enclosed in parentheses whereas they aren't in commands.
-{% highlight ahk linenos %}
-; any AutoHotkey version
-MsgBox Hi! ; command, no parentheses, no quotes
-IsLabel("AnyFunction") ; function, parentheses + quotes
+{% highlight ahk linenos %}; any AutoHotkey version
+user := "Tom"
+MsgBox Hi %user%! ; command: no parentheses, no quotes, but %-signs
+
+suffix := "_2"
+IsLabel("AnyLabel" suffix) ; function: parentheses + quotes, no %-signs
 {% endhighlight %}
 
 ### forcing expression mode
