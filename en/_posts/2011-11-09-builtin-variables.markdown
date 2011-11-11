@@ -28,3 +28,6 @@ There are way too much builtin variables to list them all here. The areas they c
 A list of them can be found in the respective manual. Online links:
 * [AutoHotkey classic](http://www.autohotkey.com/docs/Variables.htm#BuiltIn)
 * [AutoHotkey\_L](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/Variables.htm#BuiltIn)
+
+## booleans
+Additionally to those listed in the links above, AutoHotkey has the builtin variables (or constants) **true** and **false**. IronAHK also introduces **null**.
