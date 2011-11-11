@@ -6,9 +6,7 @@ permalink: /en/Variables-functions-commands.html
 
 # Variables, commands and function stuff
 
-## Variables
-
-### Creating a variable
+## Creating a variable
 AutoHotkey is a scripting language, designed to make things easy and fast to be coded. Variables don't need to be created, "declared".
 They aren't typed either. So you can use a variable and assign some text to it or a number, it doesn't matter.
 
@@ -20,10 +18,13 @@ This simply creates a variable named `MyVar` and assigns the string <cite>Hello!
 If this is put in the auto-execute section, it should automatically be available to the rest of the auto-execute section below and all labels.
 There's more to be said about [variable scoping]() when we deal with functions later.
 
-### Referencing a variable
+### \#MustDeclare
+...
+
+## Referencing a variable
 Referencing a variable is basicly easy. However, there's one big pitfall beginners often have problem with, called <cite>traditional vs. expressional</cite>. This not only affects variables, but also strings.
 
-#### traditional:
+### traditional:
 We'll start with traditional:
 {% highlight ahk linenos %}
 ; any AutoHotkey version except AutoHokey v2 and AutoHotkey_H v2.
@@ -36,7 +37,7 @@ Literal text does not need to be enclosed in quotes, if they are present, they'r
 
 In AutoHotkey v2 (and AutoHotkey\_H v2), literal **assignments** (i.e. line 2 and 4) are not supported. Command calls are still supported, using traditional syntax.
 
-#### expressional
+### expressional
 When assigning a variable with `:=`, you force the left side to be an expression. As expressions also appear in some other cases, it's important to know how to deal with them.
 {% highlight ahk linenos %}
 ; any AutoHotkey version
@@ -46,41 +47,6 @@ My2ndVar := MyVar
 {% endhighlight %}
 As you see, in expressional mode variables are **not** enclosed in percent signs.
 Literal text must be enclosed in double-quotes (AutoHotkey v2 and AutoHotkey\_H v2 also support single quotes).
-
-## `if` statements
-As most languages, AutoHotkey has an `if` statement. There are also a traditional and an expressional version.
-
-### traditional
-{% highlight ahk linenos %}
-; any AutoHotkey version
-MyVar := "Hello!" ; expressional assignment
-if MyVar = Hello! ; traditional if
-{
-	MsgBox Hello.
-}
-else
-{
-	MsgBox Bye.
-}
-{% endhighlight %}
-As you can see, the left side in a traditional `if` is ***always a variable***. The right side is taken as string. If you want to put a variable here, enclose it in percent signs.
-
-### expressional
-{% highlight ahk linenos %}; any AutoHotkey version
-MyVar := "Hello!"
-if (MyVar = "Hello!")
-{
-	MsgBox Hello.
-}
-else
-{
-	MsgBox Bye.
-}
-{% endhighlight %}
-An expressional `if` uses parentheses around the *expression*. You can put anything expressional on the left side: a variable, a function call, a quoted string, ...
-The same is true for the right side.
-
-Expressional `if` is sometimes recommended as this is the same form that is used in many other languages.
 
 ## commands & functions
 As you saw above, commands use the traditional mode by default, functions use expressional mode.
