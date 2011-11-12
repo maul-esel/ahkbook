@@ -93,7 +93,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 9. [A bit of advanced stuff]()
 	- [DllCalls to Windows API]()
-	- [NumPut, NumGet, VarSetCapacity & stuff]()
+	- [Structures](Structures.html)
 	- [Working with bits, bytes etc. (&, |, >>, <<, ...)]()
 	- [Streams and file headers]()
 
