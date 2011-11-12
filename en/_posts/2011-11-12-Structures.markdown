@@ -131,13 +131,15 @@ Arrays are a form of structure, in that they store members together in memory as
 
 Strings in structures are also arrays; usually they are arrays with values of type CHAR, and can be accessed with the same method as other arrays. However, there are also functions to deal with strings in memory: `StrPut()` and `StrGet()`. Demonstration follows:
 
-{% highlight ahk linenos %}; AutoHotkey_L
+{% highlight ahk linenos %}; AutoHotkey_L, AutoHotkey v2 and AutoHotkey_H v2
 ResultString := StrGet(&StructureContainingAString + OffsetOfStringMember)
 {% endhighlight %}
 
 These functions retrieve the entire array and treat it as though it were a string, converting it into a string AutoHotkey can use normally.
 
 Other features of the two include limiting of the string length and converting between codepages.
+
+AutoHotkey classic users can also use the above code by #including these functions ([download](http://www.autohotkey.com/forum/viewtopic.php?t=59738)).
 
 ### structure library
 
