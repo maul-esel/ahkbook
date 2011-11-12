@@ -37,6 +37,9 @@ In order to access a member of a structure, one must know its type and offset. F
 
 Since we now know the type and offset of the member, we are now able to access it.
 
+### pointer types
+Pointer types can be fickle to calculate offsets for: on 32-bit systems they are 4 bytes in size, but on 64-bit systems they are 8 bytes in size. This is a problem when trying to write applications that work on both. The solution: a built in variable named `A_PtrSize` contains 4 on 32-bit systems and 8 on 64-bit systems. When calculating offsets, instead of adding 4 or 8 for a pointer type, simply add the variable `A_PtrSize`. For example, a member with two DWORD members and two PVOID members before it would have the offset 4+4+A_PtrSize+A_PtrSize, or 8+(A_PtrSize*2).
+
 ## initializing structures
 AutoHotkey has several facilities for creating structures. Before creating a structure, however, one must ensure there is a section of memory large enough to hold it.
 
