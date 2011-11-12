@@ -120,6 +120,19 @@ To access the "bottom" member of the "second" member of the structure RECTANGLE:
 
 Accessing the "bottom" member can be done by using `NumPut()` or `NumGet()` with the RECTANGLES structure, with the type LONG and the offset 28.
 
+### arrays
+Arrays are a form of structure, in that they store members together in memory as structured data. However, arrays only have one type of member, and they can have varying numbers of them. For example, an array of 256 INT values is a structure containing 256 members, all with the type INT. The size of such an array is 256*4, or 1024 bytes.
+
+Strings in structures are also arrays; usually they are arrays with values of type CHAR, and can be accessed with the same method as other arrays. However, there are also functions to deal with strings in memory: `StrPut()` and `StrGet()`. Demonstration follows:
+
+{% highlight ahk linenos %}; AutoHotkey_L
+ResultString := StrGet(&StructureContainingAString + OffsetOfStringMember)
+{% endhighlight %}
+
+These functions retrieve the entire array and treat it as though it were a string, converting it into a string AutoHotkey can use normally.
+
+Other features of the two include limiting of the string length and converting between codepages.
+
 ### structure library
 
 The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
