@@ -75,6 +75,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [INI]()
 		- [Registry]()
 	- [operators]()
+
 		- [a bit of maths]()
 	- [working with strings]()
 	- [handling errors]() <!-- ErrorLevel + try/catch/throw -->
