@@ -13,14 +13,14 @@ It is also often necessary to get input from the user: maybe just a decision on 
 
 ## Notifying the user & let him make decisions
 For these two cases, the `MsgBox` command you already got to know is very useful. We already looked at cases like this:
-{% highlight ahk linenos %}
+{% highlight ahk linenos %}; any AutoHotkey version
 MsgBox The operation completed successfully.
 {% endhighlight %}
 ![screenshot](images/msgbox-1.png)
 However, this isn't a lot. It doesn't give any first-shot visual information on what kind of message it is (question / error / notification) and my just be clicked away without being read. Also, the title of the box isn't very descriptive (it's the script's file name).
 
 So we'll look at the other "mode" (or *overload*) of the command. You might remember, when [doing your first script](), there's a way to customize that box. An improved example:
-{% highlight ahk linenos %}
+{% highlight ahk linenos %}; any AutoHotkey version
 MsgBox, 262208, Done., The operation completed successfully., 10
 {% endhighlight %}
 ![screenshot](images/msgbox-2.png)
@@ -30,7 +30,7 @@ Look at the code: The 2nd param is, of course, the title, and the third one is t
 
 ### Getting the user's decision
 Let's take the following example:
-{% highlight ahk linenos %}
+{% highlight ahk linenos %}; any AutoHotkey version
 MsgBox 33, Continue?, Do you wish to delete all files in "%A_ProgramFiles%"?
 {% endhighlight %}
 This will you give something like the following:
@@ -50,7 +50,7 @@ AutoHotkey has a special `if`-statement for that: `IfMsgBox`. This one is only v
 * Timeout (present if the MsgBox timed out)
 
 A usage example:
-{% highlight ahk linenos %}
+{% highlight ahk linenos %}; AutoHotkey classic and AutoHotkey_L
 MsgBox 33, Continue?, Do you wish to delete all files in "%A_ProgramFiles%"?
 IfMsgBox OK
 	MsgBox No, that's not a good idea. I won't do that!
