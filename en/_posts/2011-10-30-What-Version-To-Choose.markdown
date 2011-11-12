@@ -15,11 +15,13 @@ This is the original AutoHotkey version, coded by Chris Mallett. Unfortunately, 
 
 If you choose this version, any bugs you detect won't be fixed, and you can't use a lot of new features, such as Unicode, Arrays, COM, ... . You might think "I don't need Unicode, Arrays, etc., I don't even know what it is!". But trust me, they will become useful.
 
+**Also note that AHK classic on 64bit will not work as soon as you reach some advanced topics.**
+
 ### AutoHotkey\_L
 This fork is based on the original AutoHotkey code, and it is developed by Lexikos (Steve Gray). Contrary to AutoHotkey classic, it is still actively maintained.
 Bugs are usually fixed quickly (given you report them), however, sometimes a change introduces a new bug.
 
-AutoHotkey\_L has hundreds of new features, such as Arrays / Objects + classes (we'll deal with them later), native COM (another topic we'll discuss), but also features useful for hotkey scripters, and last but not least 64bit support.
+AutoHotkey\_L has hundreds of new features, such as Arrays / Objects + classes (we'll deal with them later), native COM (another topic we'll discuss), but also features useful for hotkey scripters, and last but not least **64bit support**.
 
 AutoHotkey\_L is offered in an ANSI and an Unicode version. This describes a different script encoding \([learn more...](http://www.joelonsoftware.com/printerFriendly/articles/Unicode.html "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets \(No Excuses!\)")\). You may not know a lot about it, but Unicode often makes dealing with advanced topics (Windows API), but also hotkeys with special characters (&auml;, &ouml;, &uuml;, &szlig;, &Oslash;, Њ, ڵ, ...) easier. On the other side, *some* old scripts from the forum might have minor issues.
 
