@@ -121,7 +121,7 @@ To access the "bottom" member of the "second" member of the structure RECTANGLE:
 Accessing the "bottom" member can be done by using `NumPut()` or `NumGet()` with the RECTANGLES structure, with the type LONG and the offset 28.
 
 ### arrays
-Arrays are a form of structure, in that they store members together in memory as structured data. However, arrays only have one type of member, and they can have varying numbers of them. For example, an array of 256 INT values is a structure containing 256 members, all with the type INT. The size of such an array is 256*4, or 1024 bytes.
+Arrays are a form of structure, in that they store members together in memory as structured data. However, arrays only have one type of member, and they can have varying numbers of them. For example, an array of 256 INT values is a structure containing 256 members, all with the type INT. The size of such an array is 256\*4, or 1024 bytes.
 
 Strings in structures are also arrays; usually they are arrays with values of type CHAR, and can be accessed with the same method as other arrays. However, there are also functions to deal with strings in memory: `StrPut()` and `StrGet()`. Demonstration follows:
 
