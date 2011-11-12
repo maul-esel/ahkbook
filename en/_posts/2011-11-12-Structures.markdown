@@ -80,7 +80,7 @@ Mapping the type HCURSOR to an AutoHotkey type:
 When accessing something with the type HCURSOR, use the AutoHotkey type `UPtr`.
 
 #### Note:
-The `UPtr` and `Ptr` types are supported in AutoHotkey\_L, AutoHotkey v2 and AutoHotkey\_H v2. In other versions you must use `UInt` - which might cause 64bit-incompatibility.
+The `UPtr` and `Ptr` types are supported in AutoHotkey\_L, AutoHotkey v2, AutoHotkey_H and AutoHotkey\_H v2. In other versions you must use `UInt` - which might cause 64bit-incompatibility.
 
 A list of available AutoHotkey types is available in the documentation on the [DllCall page](http://www.autohotkey.com/docs/commands/DllCall.htm#types) ([AutoHotkey\_L](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/DllCall.htm#types)).
 
@@ -131,7 +131,7 @@ Arrays are a form of structure, in that they store members together in memory as
 
 Strings in structures are also arrays; usually they are arrays with values of type CHAR, and can be accessed with the same method as other arrays. However, there are also functions to deal with strings in memory: `StrPut()` and `StrGet()`. Demonstration follows:
 
-{% highlight ahk linenos %}; AutoHotkey_L, AutoHotkey v2 and AutoHotkey_H v2
+{% highlight ahk linenos %}; AutoHotkey_L, AutoHotkey v2, AutoHotkey_H and AutoHotkey_H v2
 ResultString := StrGet(&StructureContainingAString + OffsetOfStringMember)
 {% endhighlight %}
 
