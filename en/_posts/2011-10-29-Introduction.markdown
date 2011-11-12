@@ -49,11 +49,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 
 4. [A guide to the AutoHotkey forums](Guide-Forums.html)
 
-5. [some basic things to understand](Basic-Concepts.html)
-	- [#Directives](Directives.html)<!-- content to be moved to "Influencing AutoHotkey" -->
-	- [statements](Statements.html)<!-- content to be moved / deleted -->
-
-6. [Let's start](Lets-start.html)
+5. [Let's start](Lets-start.html)
 	- [the auto-execute section](auto-execute-section.html)
 	- [Hotkeys]()
 		- [context-sensitive hotkeys]() <!-- including #if & friends, but without covering in detail || or just #IfWinActive + #if later?  -->
@@ -70,7 +66,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Working with conditions](Working-with-conditions.html)
 	- [Basic User Interaction: MsgBox & Co.](Basic-user-interaction.html)
 	- [Repeating things](Repeating.html)
-	- [Influencing AutoHotkey]() <!-- directives! -->
+	- [Influencing AutoHotkey]() <!-- directives! take from Directives.markdown -->
 	- [GUI stuff]()
 
 		- [useful tools: Gui creators]()<!-- take from Coding-Environment.markdown -->
@@ -84,38 +80,38 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [handling errors]() <!-- ErrorLevel + try/catch/throw -->
 	- [Regular Expressions]()
 
-7. [Documenting your code]()
+6. [Documenting your code]()
 	- [Why and how to document your code]()
 	- [useful tools: NDocs & GenDocs]()
 
-8. [User-defined functions]() <!-- including byRef -->
+7. [User-defined functions]() <!-- including byRef -->
 	- [variable scopes]()
 	- [libraries and stdLib conventions]()
 	- [The standard library collection]()
 
-9. [Into the web: downloading, HttpRequests, httpQuery() and more]()
+8. [Into the web: downloading, HttpRequests, httpQuery() and more]()
 
-10. [A bit of advanced stuff]()
+9. [A bit of advanced stuff]()
 	- [DllCalls to Windows API]()
 	- [NumPut, NumGet, VarSetCapacity & stuff]()
 	- [Working with bits, bytes etc. (&, |, >>, <<, ...)]()
 	- [Streams and file headers]()
 
-11. [custom GUI controls]()
+10. [custom GUI controls]()
 	- [embedding browser in GUI etc.]()
 
-12. [COM]()
+11. [COM]()
 	- [a short introduction]()
 	- [StdLib & native COM]()
 	- [automating IE & FF]()
 	- [automating Office]()
 	- [interfaces]()
 
-13. [OOP]()
+12. [OOP]()
 	- [Objects & Arrays]()
 	- [Classes]()
 
-14. [Libraries]()
+13. [Libraries]()
     - [CWindow library (+ C# converter)]()
     - [Aero Library]()
     - [gdi+]()
