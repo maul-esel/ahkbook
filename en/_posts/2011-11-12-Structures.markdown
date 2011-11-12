@@ -154,6 +154,8 @@ It should be noted that `StrPut()` and `StrGet()` exist only on AutoHotkey_L, bu
 DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
 {% endhighlight %}
 
+The two functions have also been backported to older versions of AutoHotkey, and are available as [libraries](http://www.autohotkey.com/forum/topic59738.html).
+
 ### structure library
 
 The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
