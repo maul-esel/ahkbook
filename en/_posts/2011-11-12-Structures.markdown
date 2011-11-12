@@ -40,6 +40,12 @@ Since we now know the type and offset of the member, we are now able to access i
 ### pointer types
 Pointer types can be fickle to calculate offsets for: on 32-bit systems they are 4 bytes in size, but on 64-bit systems they are 8 bytes in size. This is a problem when trying to write applications that work on both. The solution: a built in variable named `A_PtrSize` contains 4 on 32-bit systems and 8 on 64-bit systems. When calculating offsets, instead of adding 4 or 8 for a pointer type, simply add the variable `A_PtrSize`. For example, a member with two DWORD members and two PVOID members before it would have the offset 4+4+A_PtrSize+A_PtrSize, or 8+(A_PtrSize*2).
 
+It should be noted that `A_PtrSize` exists only in AutoHotkey_L, as the older versions do not support native 64-bit scripts, but the following workaround can be used in these cases:
+
+{% highlight ahk linenos %}; any AutoHotkey version
+PtrSize := A_PtrSize ? A_PtrSize : 4
+{% endhighlight %}
+
 ## initializing structures
 AutoHotkey has several facilities for creating structures. Before creating a structure, however, one must ensure there is a section of memory large enough to hold it.
 
@@ -81,6 +87,12 @@ Mapping the type HCURSOR to an AutoHotkey type:
 4. PVOID is known to map to the AutoHotkey type `UPtr`.
 
 When accessing something with the type HCURSOR, use the AutoHotkey type `UPtr`.
+
+It should be noted that `UPtr` and certain other types exist only in AutoHotkey_L, as the older versions did not have the need for a flexible pointer type. The following workaround can be used in these cases:
+
+{% highlight ahk linenos %}; any AutoHotkey version
+PointerType := A_PtrSize ? "UPtr" : "UInt"
+{% endhighlight %}
 
 ## setting members
 Members of a structure can be set using the `NumPut()` function:
@@ -135,6 +147,12 @@ ResultString := StrGet(&StructureContainingAString + OffsetOfStringMember)
 These functions retrieve the entire array and treat it as though it were a string, converting it into a string AutoHotkey can use normally.
 
 Other features of the two include limiting of the string length and converting between codepages.
+
+It should be noted that `StrPut()` and `StrGet()` exist only on AutoHotkey_L, but the following workaround can be used in these cases:
+
+{% highlight ahk linenos %}; any AutoHotkey version
+DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
+{% endhighlight %}
 
 ### structure library
 
