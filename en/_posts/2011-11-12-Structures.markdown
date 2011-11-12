@@ -79,6 +79,12 @@ Mapping the type HCURSOR to an AutoHotkey type:
 
 When accessing something with the type HCURSOR, use the AutoHotkey type `UPtr`.
 
+#### Note:
+The `UPtr` and `Ptr` types are supported in AutoHotkey\_L, AutoHotkey v2 and AutoHotkey\_H v2. In other versions you must use `UInt` - which might cause 64bit-incompatibility.
+
+A list of available AutoHotkey types is available in the documentation on the [DllCall page](http://www.autohotkey.com/docs/commands/DllCall.htm#types) ([AutoHotkey\_L](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/DllCall.htm#types)).
+
+
 ## setting members
 Members of a structure can be set using the `NumPut()` function:
 
