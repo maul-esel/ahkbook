@@ -69,7 +69,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [the power of builtin variables](builtin-variables.html)
 	- [Working with conditions](Working-with-conditions.html)
 	- [Basic User Interaction: MsgBox & Co.](Basic-user-interaction.html)
-	- [Repeating things]()
+	- [Repeating things](Repeating.html)
 	- [Influencing AutoHotkey]() <!-- directives! -->
 	- [GUI stuff]()
 
