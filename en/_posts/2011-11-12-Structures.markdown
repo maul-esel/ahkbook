@@ -9,7 +9,7 @@ permalink: /en/Structures.html
 A structure is simply a section of memory that contains structured data. Each piece of data in the structure is known as a "member" of the structure. Structures and their members no meaning on their own; they are simply blocks of data.
 
 ## size of structures
-The size of a given structure is equal to the sum of the sizes of each member. For example, the [Rect](http://msdn.microsoft.com/en-us/library/dd162897%28v=VS.85%29.aspx) structure is defined as follows:
+The size of a given structure is equal to the sum of the sizes of each member. For example, the [Rect](http://msdn.microsoft.com/en-us/library/dd162897.aspx) structure is defined as follows:
 
     typedef struct _RECT {
       LONG left;
@@ -21,7 +21,7 @@ The size of a given structure is equal to the sum of the sizes of each member. F
 This shows to following information:
 
 * The name of the structure (RECT)
-* The names of the members (left, top, right, and bottom)
+* The names of the members ("left", "top", "right", and "bottom")
 * The types of the members (LONG, LONG, LONG, and LONG)
 
 Let's look at the last point in detail. The type of a member determines its size; a LONG is 4 bytes, a SHORT is two bytes, and a CHAR is one byte. In this case all of the members of the Rect structure are of type LONG, and therefore each member is 4 bytes in size. With four members of four bytes each, the total size of the structure is 16 bytes.
@@ -29,11 +29,11 @@ Let's look at the last point in detail. The type of a member determines its size
 ## structure members
 In order to access a member of a structure, one must know its type and offset. For example, accessing the "bottom" member of the Rect structure requires knowledge that it is of type LONG, and is the fourth member of the structure, after three members with the type LONG. To calculate the offset, we must walk through every member before it. A demonstration follows:
 
-1) The offset starts at 0. That means the current offset is 0.
-2) The "left" member is a LONG, and therefore is 4 bytes. That means the current offset is 0+4, or 4.
-3) The "top" member is a LONG, and therefore is 4 bytes. That means the current offset is 4+4, or 8.
-4) The "right" member is a LONG, and therefore is 4 bytes. That means the current offset is 8+4, or 12.
-5) The "bottom" member has been reached, so we stop here. The final offset is 12.
+1. The offset starts at 0. That means the current offset is 0.
+2. The "left" member is a LONG, and therefore is 4 bytes. That means the current offset is 0+4, or 4.
+3. The "top" member is a LONG, and therefore is 4 bytes. That means the current offset is 4+4, or 8.
+4. The "right" member is a LONG, and therefore is 4 bytes. That means the current offset is 8+4, or 12.
+5. The "bottom" member has been reached, so we stop here. The final offset is 12.
 
 Since we now know the type and offset of the member, we are now able to access it.
 
@@ -57,25 +57,27 @@ VarSetCapacity(RectVariable,16,0)
 The last parameter, `FillByte`, specifies the value to fill all bytes in the variable with. In this case, the variable that will contain our Rect structure has been initialized to have all members set to 0.
 
 ### member types
-AutoHotkey provides a small set of types that map to just about any type one would need. Mapping the types of a structure with those built into AutoHotkey can sometimes be a challenge, however. Sometimes, it is simply something one needs to memorize; DWORD becomes UInt, LONG becomes Int, HANDLE becomes UPtr, etc. The mapping is not random, however: they are based on their sizes and certain other properties such as signedness and whether they are the same size across 32-bit and 64-bit operating systems.
+AutoHotkey provides a small set of types that map to just about any type one would need. Mapping the types of a structure with those built into AutoHotkey can sometimes be a challenge, however. Sometimes, it is simply something one needs to memorize; DWORD becomes `UInt`, LONG becomes `Int`, HANDLE becomes `UPtr`, etc. The mapping is not random, however: they are based on their sizes and certain other properties such as signedness and whether they are the same size across 32-bit and 64-bit operating systems.
 
-It is helpful to memorize the simplest ones such as DWORD mapping to UInt, and look up any others that are unfamiliar. It is not feasible to memorize them all, but a [good reference](http://msdn.microsoft.com/en-us/library/aa383751(v=vs.85).aspx) will be very useful when working with unknown types. A list of commonly used type mappings follow:
+It is helpful to memorize the simplest ones such as DWORD mapping to `UInt`, and look up any others that are unfamiliar. It is not feasible to memorize them all, but a [good reference](http://msdn.microsoft.com/en-us/library/aa383751.aspx) will be very useful when working with unknown types. A list of commonly used type mappings follow:
 
-* PVOID becomes UPtr
-* DWORD becomes UInt
-* CHAR becomes Char
-* SHORT becomes Short
-* LONG becomes UInt
-* LPCTSTR becomes Str
+* PVOID becomes `UPtr`.
+* DWORD becomes `UInt`.
+* INT becomes `Int`.
+* CHAR becomes `Char`.
+* SHORT becomes `Short`.
+* LONG becomes `Int`.
+* LPCTSTR becomes `Str`.
+* FLOAT becomes `Float`.
 
 Mapping the type HCURSOR to an AutoHotkey type:
 
-1) The reference page contains the following in the HCURSOR row: "typedef HICON HCURSOR;". This means that HCURSOR is a form of the type HICON.
-2) The reference page contains the following in the HICON row: "typedef HANDLE HICON;". This means that HICON is a form of the type HANDLE.
-3) The reference page contains the following in the HANDLE row: "typedef PVOID HANDLE;". This means that HANDLE is a form of the type PVOID.
-4) PVOID is known to map to the AutoHotkey type UPtr.
+1. The reference page contains the following in the HCURSOR row: "typedef HICON HCURSOR;". This means that HCURSOR is a form of the type HICON.
+2. The reference page contains the following in the HICON row: "typedef HANDLE HICON;". This means that HICON is a form of the type HANDLE.
+3. The reference page contains the following in the HANDLE row: "typedef PVOID HANDLE;". This means that HANDLE is a form of the type PVOID.
+4. PVOID is known to map to the AutoHotkey type `UPtr`.
 
-When accessing something with the type HCURSOR, use the AutoHotkey type UPtr.
+When accessing something with the type HCURSOR, use the AutoHotkey type `UPtr`.
 
 ## setting members
 Members of a structure can be set using the `NumPut()` function:
@@ -84,7 +86,7 @@ Members of a structure can be set using the `NumPut()` function:
 NumPut(5000,RectVariable,12,"UInt")
 {% endhighlight %}
 
-Here, we have set the member at offset 12 (which was "bottom", as mentioned earlier) to the value 5000. Since we know that LONG maps to UInt, we have used UInt as the type.
+Here, we have set the member at offset 12 (which was "bottom", as mentioned earlier) to the value 5000. Since we know that LONG maps to `UInt`, we have used `UInt` as the type.
 
 In other words, the Rect structure's "bottom" member was set to 5000.
 
@@ -96,13 +98,35 @@ Members of a structure can be retrieved using the `NumGet()` function:
 BottomValue := NumGet(RectVariable,12,"UInt")
 {% endhighlight %}
 
-Here, we have retrieved the member at offset 12 (which was "bottom", as mentioned earlier), and stored it in the variable `BottomValue`. Since we know that LONG maps to UInt, we have used UInt as the type.
+Here, we have retrieved the member at offset 12 (which was "bottom", as mentioned earlier), and stored it in the variable `BottomValue`. Since we know that LONG maps to `UInt`, we have used `UInt` as the type.
 
 In other words, the Rect structure's "bottom" member was retrieved and stored in a variable.
+
+## other considerations
+### nested structures
+Structures can be treated as types themselves; for example, the Rect structure may be considered a type named Rect that occupies 16 bytes of memory. This means it is possible to nest a structure within another structure. When doing so, the nested structure is considered a member of the containing structure. When calculating offsets, one may simply add the offset for the member containing the nested structure to the offset of the member desired within the nested structure. For example, assume a structure defined as follows:
+
+    typedef struct _RECTANGLES {
+      RECT first;
+      RECT second;
+      RECT third;
+    } RECTANGLES, *PRECTANGLES;
+
+To access the "bottom" member of the "second" member of the structure RECTANGLE:
+
+1. Find the offset for "second". In this case, the sum of the sizes of the members before it ("first") is 16, so "second" is located at an offset of 16 bytes from the beginning of RECTANGLES
+2. Find the offset for "bottom" within "second". In this case, the sum of the sizes of the members before it ("top", "left", and "right") is 12, so "bottom" is located at an offset of 12 bytes from the beginning of the Rect "second"
+3. The sum of the two offsets is 16+12, or 28.
+
+Accessing the "bottom" member can be done by using `NumPut()` or `NumGet()` with the RECTANGLES structure, with the type LONG and the offset 28.
+
+### structure library
+
+The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
 
 ## Summary
 * Structures are sections of memory filled with structured data.
 * Members are specific independant parts in the data.
 * Members are accessed by their type and offset.
 * Each type almost always needs to be mapped to an AutoHotkey built in type to be used.
-* AutoHotkey functions useful when working with structures are `VarSetCapacity()`, `NumPut()`, and `NumGet()`.
+* AutoHotkey functions that are useful when working with structures are `VarSetCapacity()`, `NumPut()`, and `NumGet()`.
