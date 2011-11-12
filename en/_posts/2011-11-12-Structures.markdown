@@ -6,7 +6,7 @@ permalink: /en/Structures.html
 
 # Structures
 
-A structure is simply a section of memory that contains structured data. Each piece of data in the structure is known as a "member" of the structure. Structures and their members no meaning on their own; they are simply blocks of data.
+A structure is simply a section of memory that contains structured data. Each piece of data in the structure is known as a "member" of the structure. Structures and their members have no meaning on their own; they are simply blocks of data.
 
 ## size of structures
 The size of a given structure is equal to the sum of the sizes of each member. For example, the [Rect](http://msdn.microsoft.com/en-us/library/dd162897.aspx) structure is defined as follows:
@@ -38,9 +38,9 @@ In order to access a member of a structure, one must know its type and offset. F
 Since we now know the type and offset of the member, we are now able to access it.
 
 ### pointer types
-Pointer types can be fickle to calculate offsets for: on 32-bit systems they are 4 bytes in size, but on 64-bit systems they are 8 bytes in size. This is a problem when trying to write applications that work on both. The solution: a built in variable named `A_PtrSize` contains 4 on 32-bit systems and 8 on 64-bit systems. When calculating offsets, instead of adding 4 or 8 for a pointer type, simply add the variable `A_PtrSize`. For example, a member with two DWORD members and two PVOID members before it would have the offset 4+4+A_PtrSize+A_PtrSize, or 8+(A_PtrSize*2).
+Pointer types can be fickle to calculate offsets for: on 32-bit systems they are 4 bytes in size, but on 64-bit systems they are 8 bytes in size. This is a problem when trying to write applications that work on both. The solution: a built in variable named `A_PtrSize` contains 4 on 32-bit systems and 8 on 64-bit systems. When calculating offsets, instead of adding 4 or 8 for a pointer type, simply add the variable `A_PtrSize`. For example, a member with two DWORD members and two PVOID members before it would have the offset 4+4+A_PtrSize+A_PtrSize, or 8+(A_PtrSize\*2).
 
-It should be noted that `A_PtrSize` exists only in AutoHotkey_L, as the older versions do not support native 64-bit scripts, but the following workaround can be used in these cases:
+It should be noted that `A_PtrSize` exists only in AutoHotkey_L or similarly recent versions, as the older versions do not support native 64-bit scripts, but the following workaround can be used in these cases:
 
 {% highlight ahk linenos %}; any AutoHotkey version
 PtrSize := A_PtrSize ? A_PtrSize : 4
@@ -88,7 +88,7 @@ Mapping the type HCURSOR to an AutoHotkey type:
 
 When accessing something with the type HCURSOR, use the AutoHotkey type `UPtr`.
 
-It should be noted that `UPtr` and certain other types exist only in AutoHotkey_L, as the older versions did not have the need for a flexible pointer type. The following workaround can be used in these cases:
+It should be noted that `UPtr` and certain other types exist only in AutoHotkey_L or similarly recent versions, as the older versions did not have the need for a flexible pointer type. The following workaround can be used in these cases:
 
 {% highlight ahk linenos %}; any AutoHotkey version
 PointerType := A_PtrSize ? "UPtr" : "UInt"
@@ -136,11 +136,11 @@ To access the "bottom" member of the "second" member of the structure RECTANGLE:
 Accessing the "bottom" member can be done by using `NumPut()` or `NumGet()` with the RECTANGLES structure, with the type LONG and the offset 28.
 
 ### arrays
-Arrays are a form of structure, in that they store members together in memory as structured data. However, arrays only have one type of member, and they can have varying numbers of them. For example, an array of 256 INT values is a structure containing 256 members, all with the type INT. The size of such an array is 256*4, or 1024 bytes.
+Arrays are a form of structure, in that they store members together in memory as structured data. However, arrays only have one type of member, and they can have varying numbers of them. For example, an array of 256 INT values is a structure containing 256 members, all with the type INT. The size of such an array is 256\*4, or 1024 bytes.
 
 Strings in structures are also arrays; usually they are arrays with values of type CHAR, and can be accessed with the same method as other arrays. However, there are also functions to deal with strings in memory: `StrPut()` and `StrGet()`. Demonstration follows:
 
-{% highlight ahk linenos %}; AutoHotkey_L
+{% highlight ahk linenos %}; AutoHotkey_L or similarly recent versions
 ResultString := StrGet(&StructureContainingAString + OffsetOfStringMember)
 {% endhighlight %}
 
@@ -148,7 +148,7 @@ These functions retrieve the entire array and treat it as though it were a strin
 
 Other features of the two include limiting of the string length and converting between codepages.
 
-It should be noted that `StrPut()` and `StrGet()` exist only on AutoHotkey_L, but the following workaround can be used in these cases:
+It should be noted that `StrPut()` and `StrGet()` exist only on AutoHotkey_L or similarly recent versions, but the following workaround can be used in these cases:
 
 {% highlight ahk linenos %}; any AutoHotkey version
 DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
