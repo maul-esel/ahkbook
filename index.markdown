@@ -21,7 +21,7 @@ Everything, every minor or major improvement / addition / suggestion is welcome!
 * [maul-esel](http://maul-esel.github.com/)
 * [Frankie](http://aboutscript.com/blog/)
 * [nimda](http://www.autohotkey.com/forum/profile.php?mode=viewprofile&u=48362)
-* [Uberi](http://http://www.autohotkey.net/~Uberi/)
+* [Uberi](http://www.autohotkey.net/~Uberi/)
 
 ## Available versions
 * [english](en/Introduction.html) - *work in progress!*
