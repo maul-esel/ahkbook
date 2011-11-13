@@ -38,9 +38,9 @@ In order to access a member of a structure, one must know its type and offset. F
 Since we now know the type and offset of the member, we are now able to access it.
 
 ### pointer types
-Pointer types can be fickle to calculate offsets for: on 32-bit systems they are 4 bytes in size, but on 64-bit systems they are 8 bytes in size. This is a problem when trying to write applications that work on both. The solution: a built in variable named `A_PtrSize` contains 4 on 32-bit systems and 8 on 64-bit systems. When calculating offsets, instead of adding 4 or 8 for a pointer type, simply add the variable `A_PtrSize`. For example, a member with two DWORD members and two PVOID members before it would have the offset 4+4+A_PtrSize+A_PtrSize, or 8+(A_PtrSize\*2).
+Pointer types can be fickle to calculate offsets for: on 32-bit systems they are 4 bytes in size, but on 64-bit systems they are 8 bytes in size. This is a problem when trying to write applications that work on both. The solution: a built in variable named `A_PtrSize` contains 4 on 32-bit systems and 8 on 64-bit systems. When calculating offsets, instead of adding 4 or 8 for a pointer type, simply add the variable `A_PtrSize`. For example, a member with two DWORD members and two PVOID members before it would have the offset 4+4+A\_PtrSize+A\_PtrSize, or 8+(A\_PtrSize\*2).
 
-It should be noted that `A_PtrSize` exists only in AutoHotkey_L or similarly recent versions, as the older versions do not support native 64-bit scripts, but the following workaround can be used in these cases:
+It should be noted that `A_PtrSize` exists only in AutoHotkey\_L or similarly recent versions, as the older versions do not support native 64-bit scripts, but the following workaround can be used in these cases:
 
 {% highlight ahk linenos %}; any AutoHotkey version
 PtrSize := A_PtrSize ? A_PtrSize : 4
@@ -89,7 +89,7 @@ Mapping the type HCURSOR to an AutoHotkey type:
 When accessing something with the type HCURSOR, use the AutoHotkey type `UPtr`.
 
 #### Note:
-It should be noted that `UPtr` and certain other types exist only in AutoHotkey_L or similarly recent versions, as the older versions did not have the need for a flexible pointer type. The following workaround can be used in these cases:
+It should be noted that `UPtr` and certain other types exist only in AutoHotkey\_L or similarly recent versions, as the older versions did not have the need for a flexible pointer type. The following workaround can be used in these cases:
 
 {% highlight ahk linenos %}; any AutoHotkey version
 PointerType := A_PtrSize ? "UPtr" : "UInt"
@@ -151,7 +151,7 @@ These functions retrieve the entire array and treat it as though it were a strin
 
 Other features of the two include limiting of the string length and converting between codepages.
 
-It should be noted that `StrPut()` and `StrGet()` exist only on AutoHotkey_L or similarly recent versions, but the following workaround can be used in these cases:
+It should be noted that `StrPut()` and `StrGet()` exist only on AutoHotkey\_L or similarly recent versions, but the following workaround can be used in these cases:
 
 {% highlight ahk linenos %}; any AutoHotkey version
 DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
@@ -160,7 +160,6 @@ DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
 The two functions have also been backported to older versions of AutoHotkey, and are available as [libraries](http://www.autohotkey.com/forum/topic59738.html).
 
 ### structure library
-
 The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
 
 ## Summary
