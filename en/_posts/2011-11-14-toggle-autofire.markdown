@@ -41,7 +41,7 @@ F8::
  MsgBox % t
  return
 {% endhighlight %}
-Run the above script a few times; notice how it switches between 0 and 1. `t` stands for Toggle. Using **inline assignment** we can shorten this:
+Run the above script and press F8 few times; notice how it switches between 0 and 1. `t` stands for Toggle. Using **inline assignment** we can shorten this:
 {% highlight ahk linenos %}; any AutoHotkey version
 F8:: MsgBox % (t := !t)
 {% endhighlight %}
