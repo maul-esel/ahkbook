@@ -62,9 +62,9 @@ Let's break it down. **#MaxThreadsPerHotkey 2** is essential to the script. It s
 # Final reading
 
 It is worth reading these sections of the AHK documentation to further understand toggles:
-[url=http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/_MaxThreadsPerHotkey.htm]#MaxThreadsPerHotkey[/url]
-[url=http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/misc/Threads.htm]Threads[/url]
-[url=http://www.autohotkey.com/docs/commands/While.htm]While[/url]
-[url=http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/SetTimer.htm]SetTimer[/url]
+[#MaxThreadsPerHotkey](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/_MaxThreadsPerHotkey.htm)
+[Threads](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/misc/Threads.htm)
+[While](http://www.autohotkey.com/docs/commands/While.htm)
+[SetTimer](http://www.autohotkey.net/~Lexikos/AutoHotkey_L/docs/commands/SetTimer.htm)
 
-Additionally, [url=http://www.autohotkey.com/forum/topic69474.html]The Definitive AutoFire Thread[/url] contains every way to implement an autofire imaginable, from Pause to SetTimer to While and more.
+Additionally, [The Definitive AutoFire Thread](http://www.autohotkey.com/forum/topic69474.html) contains every way to implement an autofire imaginable, from Pause to SetTimer to While and more.
