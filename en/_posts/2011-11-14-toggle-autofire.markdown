@@ -1,7 +1,7 @@
 ---
 title: 'toggle' and 'autofire'
 layout: post
-permalink: /en/auto-execute-section.html
+permalink: /en/toggle-autofire.html
 ---
 
 # What is a toggle?

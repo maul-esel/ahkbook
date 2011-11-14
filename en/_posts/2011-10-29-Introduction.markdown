@@ -16,7 +16,7 @@ With these both simple and advanced features, AutoHotkey is as well suitable for
 AutoHotkey was originally developed by Chris Mallett. Today, there are a lot of custom versions and additions, which we will cover in [Chapter 1](What-Version-To-Choose.html).
 
 ## What can AutoHotkey do?
-***Nearly everything.*** Seriously, aside from making toast, no one has yet found a task that can't be done with AutoHotkey in some way. Some of these ways are simple, some are not very elegant, some are rather obscure, however, they work.
+***Nearly everything.*** Aside from making toast, no one has yet found a task that can't be done with AutoHotkey in some way. Some of these ways are simple, some are not very elegant, some are rather obscure, however, they work.
 
 ## What can't AutoHotkey do?
 There are just two things:
