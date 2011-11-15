@@ -1,5 +1,5 @@
 ---
-title: 'toggle' and 'autofire'
+title: "'toggle' and 'autofire'"
 layout: post
 permalink: /en/toggle-autofire.html
 ---
