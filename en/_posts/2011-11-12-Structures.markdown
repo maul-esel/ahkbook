@@ -162,7 +162,7 @@ The two functions have also been backported to older versions of AutoHotkey, and
 ### structure library
 The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
 
-## Summary
+## summary
 * Structures are sections of memory filled with structured data.
 * Members are specific independant parts in the data.
 * Members are accessed by their type and offset.
