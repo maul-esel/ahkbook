@@ -15,7 +15,7 @@ Binary, or Base 2, is simply another way to write numbers. In everyday life, we 
 Base 2, or "Binary," works exactly the same way. Each digit is multiplied by 2^n, where *n* is the distance from the right, starting at 0. Thus, the number 1101001 in binary is equivalent to ``(1 * 64) + (1 * 32) + (0 * 16) + (1 * 8) + (0 * 4) + (0 * 2) + (1 * 1)``. In base 10, that is 105.
 
 ## Basic Operations ##
-So what is 1+1 in Binary? It's certainly not 2; binary doesn't have a 2! It's *10*, which means ``(1 * 2^1) + (0 * 2^0)``. All of the basic arithmetic operations — addition, subtraction, multiplication, and division — work in binary just as well as they do in Base 10. Because of this, there's no real reason to use them in Binary as opposed to base 10. However, there are some other operations which always pertain to Binary: the bitwise AND, the bitwise OR, the bitwise XOR, the bitwise NOT, and the bit-shifts left and right.
+So what is 1+1 in Binary? It's certainly not 2; binary doesn't have a 2! It's *10*, which means ``(1 * 2^1) + (0 * 2^0)``. All of the basic arithmetic operations &#8212; addition, subtraction, multiplication, and division &#8212; work in binary just as well as they do in Base 10. Because of this, there's no real reason to use them in Binary as opposed to base 10. However, there are some other operations which always pertain to Binary: the bitwise AND, the bitwise OR, the bitwise XOR, the bitwise NOT, and the bit-shifts left and right.
 
 ### The Bitwise AND ###
 The bitwise AND (represented by a single ampersand '&' in AutoHotkey) takes two digits at a time. If they are both 1, then the result is 1. Otherwise, the result is false. Here's an example:
@@ -38,7 +38,7 @@ The bitwise OR (a single pipe '|' in AutoHotkey) has a different effect. It take
 Notice how the only '0' in the result occurred when both operands (digits) were 0.
 
 ### The Bitwise NOT ###
-The bitwise NOT (~ in AutoHotkey) takes only *one* operand. It then "flips" every bit (digit) — if it is 0, the result is 1, if it is 1, the result is 0. Example 1:
+The bitwise NOT (~ in AutoHotkey) takes only *one* operand. It then "flips" every bit (digit) &#8212; if it is 0, the result is 1, if it is 1, the result is 0. Example 1:
 
     ~1010
     _____
@@ -103,4 +103,4 @@ Now that you know the basics of Binary and operations you can do on it, what is 
     If (VarContaining35 & 32)
         ; add the '?' icon
 
-This works because each option which can only have 2 states — on or off — (all except the 'button' ones) is a multiple of 2, and therefore has only a single 1 in its binary representation. Therefore, OR'ing them all together is the same as  adding them, and you can retrieve the value of a single bit (option) by using the binary AND operator.
+This works because each option which can only have 2 states &#8212; on or off &#8212; (all except the 'button' ones) is a multiple of 2, and therefore has only a single 1 in its binary representation. Therefore, OR'ing them all together is the same as  adding them, and you can retrieve the value of a single bit (option) by using the binary AND operator.
