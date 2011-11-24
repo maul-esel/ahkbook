@@ -98,7 +98,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 9. [A bit of advanced stuff]()
 	- [DllCalls to Windows API](DllCalls.html)
 	- [Structures](Structures.html)
-	- [Working with bits, bytes etc. (&, |, >>, <<, ...)]()
+	- [Working with bits (&, |, >>, <<, ...)](Working-with-bits.html)
 	- [Streams and file headers]()
 
 10. [custom GUI controls]()
