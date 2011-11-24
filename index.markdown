@@ -20,7 +20,7 @@ Everything, every minor or major improvement / addition / suggestion is welcome!
 ## Contributors
 * [maul-esel](http://maul-esel.github.com/)
 * [Frankie](http://aboutscript.com/blog/)
-* [nimda](http://nimdahk.github.com/)
+* [nimda](https://github.com/nimdahk)
 * [Uberi](http://www.autohotkey.net/~Uberi/)
 
 ## Available versions
