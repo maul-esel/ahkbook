@@ -80,7 +80,7 @@ Note that if you shift a bit off of the side, it will "fall off": it is lost. Ex
 These operators are very similar to multiplying by or dividing by powers of 2. (Which should make sense, since binary is Base 2). Therefore, ``3 << 5`` is the same as ``3 * 2**5`` (remember, in AutoHotkey, ** represents exponentiation), which equals 96. Remember that digits slide off, so ``3 >> 1`` is not 1.5 (3/2) but rather *1*. See the example:
 
     0011      (3 in binary)
-    << 1      (slide it to the right by 1)
+    >> 1      (slide it to the right by 1)
     ____
     0001      (1 in binary)
 
