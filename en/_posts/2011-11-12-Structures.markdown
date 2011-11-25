@@ -26,6 +26,8 @@ This shows to following information:
 
 Let's look at the last point in detail. The type of a member determines its size; a LONG is 4 bytes, a SHORT is two bytes, and a CHAR is one byte. In this case all of the members of the Rect structure are of type LONG, and therefore each member is 4 bytes in size. With four members of four bytes each, the total size of the structure is 16 bytes.
 
+**Note:** Those "struct definitions" in this chapter are **not AutoHotkey code**, they're C / C++. Copying them somewhere in your script will make the script fail on startup.
+
 ## structure members
 In order to access a member of a structure, one must know its type and offset. For example, accessing the "bottom" member of the Rect structure requires knowledge that it is of type LONG, and is the fourth member of the structure, after three members with the type LONG. To calculate the offset, we must walk through every member before it. A demonstration follows:
 
