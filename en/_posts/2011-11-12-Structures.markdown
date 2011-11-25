@@ -160,11 +160,81 @@ DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
 The two functions have also been backported to older versions of AutoHotkey, and are available as [libraries](http://www.autohotkey.com/forum/topic59738.html).
 
 ### structure library
-The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
+The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the builtin object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
 
 ## summary
 * Structures are sections of memory filled with structured data.
 * Members are specific independant parts in the data.
 * Members are accessed by their type and offset.
-* Each type almost always needs to be mapped to an AutoHotkey built in type to be used.
+* Each type almost always needs to be mapped to an AutoHotkey builtin type to be used.
 * AutoHotkey functions that are useful when working with structures are `VarSetCapacity()`, `NumPut()`, and `NumGet()`.
+
+## example
+As an example, we're calling the [MessageBoxIndirect](http://msdn.microsoft.com/en-us/library/windows/desktop/ms645511.aspx) function. It allows a even more customized MessageBox than AutoHotkey or the function we got to know in the last chapter.
+
+The only parameter the MessageBoxIndirect function accepts is a pointer to a [MSGBOXPARAMS](http://msdn.microsoft.com/en-us/library/windows/desktop/ms645402.aspx) structure. We're going to fill it in and pass it to the function.
+
+**Note:** As with the example in the previous chapter, this code will not work on non-Windows systems.
+
+{% highlight ahk linenos %}; (theoretically) any AutoHotkey version.
+; As of 25.11.11, this does not work for IronAHK.
+
+; ============= config =============
+IronAHK := false ; set to true if you're using IronAHK.
+; ==================================
+
+; ensure AutoHotkey classic / IronAHK compatibility:
+ptr_size := A_PtrSize ? A_PtrSize : 4
+ptr := A_PtrSize ? "UPtr" : "UInt"
+
+; define flags:
+MB_ABORTRETRYIGNORE := 0x00000002
+MB_USERICON := 0x00000080
+
+; set the button we will use + indicate we will provide a custom icon:
+flags := MB_ABORTRETRYIGNORE | MB_USERICON 
+
+; set the text that will be shown:
+text := "This box is produced with a DllCall() to the MessageBoxIndirect function, "
+		. "passing a MSGBOXPARAMS structure.`n`n"
+		. "This allows you to set a custom icon and more."
+
+; set the title that will be used:
+caption := "ahkbook example"
+
+; get a handle to the running AutoHotkey.exe: we will use an icon from inside it
+hModule := DllCall("GetModuleHandle")
+
+; choose the icon id to use (IronAHK has a different one):
+icon := IronAHK ? 32512 : 159
+
+; calculate struct size:
+struct_size := 4*3 + ptr_size*7 
+; cbSize, dwStyle and dwLanguageId are 4 bytes, others depend on system pointer size
+
+VarSetCapacity(params, struct_size, 0) ; initialize structure
+
+; filling in structure members we need:
+
+; "The structure size, in bytes."
+NumPut(struct_size,	params,	00+0*ptr_size,	"UInt")
+
+; "A handle to the module that contains the icon resource identified by the lpszIcon member... "
+NumPut(hModule,	params,	04+1*ptr_size,	ptr)
+
+; "A null-terminated string that contains the message to be displayed."
+NumPut(&text,	params,	04+2*ptr_size,	ptr)
+
+; "A null-terminated string that contains the message box title."
+NumPut(&caption,	params,	04+3*ptr_size,	ptr)
+
+; "The contents and behavior of the dialog box."
+NumPut(flags,	params,	04+4*ptr_size,	"UInt")
+
+; "Identifies an icon resource."
+NumPut(icon,	params,	08+4*ptr_size,	"UPtr")
+
+
+; call the function and pass a pointer to the structure:
+DllCall("MessageBoxIndirect", ptr, &params)
+{% endhighlight %}
