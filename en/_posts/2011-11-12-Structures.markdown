@@ -240,3 +240,6 @@ NumPut(icon,	params,	08+4*ptr_size,	"UPtr")
 ; call the function and pass a pointer to the structure:
 DllCall("MessageBoxIndirect", ptr, &params)
 {% endhighlight %}
+Running this you should get something like this:
+![screenshot](images/structures-1.png)
+The icon may differ depending on your AutoHotkey version.
