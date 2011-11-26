@@ -8,17 +8,17 @@ BPATH='/tmp/ahkbook_build'
 mkdir $BPATH
 cd $BPATH
 
-# clone from GitHub using the read-only uri
-# this is the official repo
-git clone git://github.com/maul-esel/ahkbook.git
+# clone from parent directory
+git clone $OPATH/.. ahkbook
 cd ahkbook
 
 jekyll --url '..'
 cd _site
 
-zip -r $OPATH/contents.zip *
+sed -i "s/href='\.\.\/css\/\([^\n]\+\)\.css'/href='css\/\1\.css'/g" index.html
+
+zip -r $OPATH/ahkbook.zip *
 
 
 cd $OPATH
 rm -R -f $BPATH
-
