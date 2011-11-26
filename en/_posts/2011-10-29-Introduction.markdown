@@ -102,6 +102,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 	- [Streams and file headers]()
 
 10. [custom GUI controls]()
+
 	- [embedding browser in GUI etc.]()
 
 11. [COM]()

@@ -19,6 +19,5 @@ sed -i "s/href='\.\.\/css\/\([^\n]\+\)\.css'/href='css\/\1\.css'/g" index.html
 
 zip -r $OPATH/ahkbook.zip *
 
-
 cd $OPATH
 rm -R -f $BPATH
