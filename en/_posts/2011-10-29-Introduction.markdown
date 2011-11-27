@@ -21,7 +21,7 @@ AutoHotkey was originally developed by Chris Mallett. Today, there are a lot of 
 ## What can't AutoHotkey do?
 There are just two things:
 * **Performance:** AutoHotkey is a scripting language. That means, it is interpreted each time it's run. This has of course some impact on performance.
-* **Compilation**: AutoHotkey cannot be used as a shell extension or something, as it can't be binary-compiled. There's a compiler, but it only compiles to an \*.exe, and it doesn't compile the AutoHotkey source code to a binary.
+* **Compilation**: AutoHotkey cannot be used as a shell extension or be injected into another process, as it can't be compiled to a dll. There's a compiler, but it only compiles to an \*.exe, and it doesn't compile the AutoHotkey source code to a binary.
 
 Both issues might be (partially) solved later by the IronAHK version.
 
