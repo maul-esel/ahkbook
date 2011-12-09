@@ -13,6 +13,8 @@ For AutoHotkey\_L, the online version is at [www.autohotkey.net/~Lexikos/AutoHot
 
 For German, there's a complete translation of the AutoHotkey_L manual available [in the german forum](http://de.autohotkey.com/forum/viewtopic.php?t=8861).
 
+For Chinese, there's a the AutoHotkey_L manual available (in Chinese, but partially updated) [in the Chinese forum](http://ahk.5d6d.com/thread-3629-1-1.html), and [the corresponding online help](http://cn.autohotkey.com/docs/).
+
 Some (incomplete) IronAHK docs are [here](http://www.ironahk.net/docs/). For most undocumented cases, you can use the AutoHotkey classic helpfile.
 
 There are no helpfiles for AutoHotkey v2  and AutoHotkey\_H v2 right now. Users should check out the [Autohotkey v2 thread](http://www.autohotkey.com/forum/topic70266.html) for changes.
