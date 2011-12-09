@@ -57,11 +57,13 @@ body {
    Headings  --------------------------------------- */
 h1 {
 	color: #070707;
+	page-break-after:avoid;
 }
 
 h2,h3,h4,h5,h6,h7 {
 	color: #222;
 	margin-top: 15px;
+	page-break-after:avoid;
 }
 
 h2 {
