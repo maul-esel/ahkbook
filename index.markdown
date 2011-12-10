@@ -22,6 +22,8 @@ Everything, every minor or major improvement / addition / suggestion is welcome!
 * [Frankie](http://aboutscript.com/blog/)
 * [nimda](http://nimdahk.github.com/)
 * [Uberi](http://www.autohotkey.net/~Uberi/)
+* [amnesiac](http://cn.autohotkey.com/)
 
 ## Available versions
 * [english](en/Introduction.html) - *work in progress!*
+* [Chinese](cn/Introduction.html) - *work in progress!*
