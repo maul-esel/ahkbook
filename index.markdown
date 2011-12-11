@@ -6,6 +6,8 @@ permalink: /index.html
 
 # ahkbook - the book for AutoHotkey
 
+![logo](logo.png)
+
 ## Introduction
 This project is intended to provide a collection of tutorials, scripts, technologies and a reference for AutoHotkey.
 **It is not intended to replace the excellent AHK help file!**
