@@ -1,10 +1,10 @@
 ---
-title: Labels & Co.
+title: Labels
 layout: post
 permalink: /en/Labels.html
 ---
 
-# Labels & Co.
+# Labels
 
 ## Structuring code
 Well, you know about the [auto-execute section](auto-execute-section.html) now. You learned how to trigger code by [hotkeys]() and [hotstrings]().
