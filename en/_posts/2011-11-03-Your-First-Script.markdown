@@ -44,7 +44,7 @@ You can customize the MsgBox further:
 Use the following code:
 
 {% highlight ahk linenos %}; any AutoHotkey version
-MsgBox, 36, a question, Would you like to say 'Hello, World'?
+MsgBox, 36, a question, Would you like to say "Hello, World"?
 {% endhighlight %}
 
 ## Comments
