@@ -20,7 +20,7 @@ In either way,
 * add yourself to the list of contributors with a website of your choice ;-)
 
 ## License
-This project and its contents are licensed under **Creative Commons BY-NC-SA 3.0**. See the [license](blob/gh-pages/license.md "license").
+This project and its contents are licensed under **Creative Commons BY-NC-SA 3.0**. See the [license](./blob/gh-pages/license.md "license").
 
 ### Important note:
 This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme). Check it out before contributing.
