@@ -23,12 +23,3 @@ In either way,
 This project is processed with [Jekyll](https://github.com/mojombo/jekyll#readme). Check it out before contributing.
 This doesn't mean you need to install Jekyll, the contents are automatically processed on github. But if you install it, you have (of course) better control about what you push to your github repo.
 With Jekyll, you can write your posts in HTML, Markdown (like this file) or Textile.
-
-### Another important note:
-AutoHotkey syntax highlighting via `{% highlight ahk %}` currently doesn't work on Github Pages (but it does locally). I sent a message to github support to adress this.
-
-Issues:
-
-* [UTF-8](https://github.com/mojombo/jekyll/issues/429) [FIXED!]
-* [AHK Syntax](https://github.com/mojombo/jekyll/issues/428)
-* [GFM](https://github.com/mojombo/jekyll/issues/427)
