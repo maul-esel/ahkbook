@@ -110,11 +110,15 @@ if (result == IDCANCEL)
 Rarely, DLLs may export variables in addition to functions; for example, the Raydium Game Engine DLL. Although it is not possible to retrieve or store values to this variable directly using DllCall(), it is possible to use the [GetProcAddress()](http://msdn.microsoft.com/en-us/library/windows/desktop/ms683212.aspx) WinAPI function to do so:
 {% highlight ahk linenos %}; any AutoHotkey version
 
+;compatibility types
+UPtr := A_PtrSize ? "UPtr" : "UInt"
+AStr := A_IsUnicode ? "AStr" : "Str"
+
 ;load the library that contains the exported variable
 hModule := DllCall("LoadLibrary","Str","Raydium.dll")
 
 ;obtain the address of the variable "raydium_joy_x"
-pJoystickX := DllCall("GetProcAddress",A_PtrSize ? "UPtr" : "UInt",hModule,A_IsUnicode ? "AStr" : "Str","raydium_joy_x")
+pJoystickX := DllCall("GetProcAddress",UPtr,hModule,AStr,"raydium_joy_x",UPtr)
 
 ;retrieve a float value from the address
 JoyStickX := NumGet(pJoystickX + 0,0,"Float")
