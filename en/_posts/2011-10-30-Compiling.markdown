@@ -19,7 +19,7 @@ Another important aspect of this "compilation" process is that scripts can easil
 
 AutoHotkey classic includes a "no-decompile" switch and a password protection in the compiler to make decompilation more difficult. This prevents the above tool from decompiling a script. However, this doesn't make your code safe: anyone who spends some time on it will be able to decompile your script. This is why the "no-decompile" option is no longer present in newer AutoHotkey versions.
 
-On the forum, you might find ["HotkeyCamo"](http://www.autohotkey.com/forum/viewtopic.php?t=49952), a closed-source compiler for AutoHotkey that claims to do real compilation. However, this tool seems to not have been updated for a while and doesn't support latest AutoHotkey versions.
+On the forum, you might find ["HotkeyCamo"](http://www.autohotkey.com/forum/viewtopic.php?t=49952), a closed-source compiler for AutoHotkey that claims to provide much better protection against decompilation. However, this tool does not support latest AutoHotkey versions.
 
 ### IronAHK
 All the above affects AutoHotkey classic, AutoHotkey_L, AutoHotkey v2, AutoHotkey_H etc., ***but not IronAHK.*** IronAHK compiles your scripts into .NET assemblies. This means one usually can't get the AutoHotkey source code out of it. There are tools to get what the assembly does and how, but not the original source code. Also, you can use so-called "obfuscators" to avoid this.
