@@ -89,7 +89,7 @@ You can also combine github and posting in the forum: on github, create a so-cal
 * deal with multiple files
 * have syntax highlighting for AutoHotkey and many other languages
 
-It will look like so: <script src="https://gist.github.com/1808118.js"></script>
+It will look like so: <script src="https://gist.github.com/1808118.js"> </script>
 
 ## IRC
 There's also an IRC channel for AutoHotkey available. Just check out [this post](http://www.autohotkey.com/community/viewtopic.php?t=28311).
