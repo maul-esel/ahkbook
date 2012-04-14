@@ -58,8 +58,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 																http://d.ahk4.me/Variables#Expressions -->
 		- ['toggle' hotkeys & 'autofire'](toggle-autofire.html) <!-- ~change the punctuation/name; not a big deal -->
 	- [Hotstrings]()
-
-		- [remapping]()
+	- [Remapping keys]()
 	- [Labels](Labels.html)
 
 		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
