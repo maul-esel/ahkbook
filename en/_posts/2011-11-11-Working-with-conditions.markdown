@@ -7,7 +7,7 @@ permalink: /en/Working-with-conditions.html
 # Working with conditions
 
 ## Conditions
-You will notice, it is often needed to do things onyl *if something is like this or that* or if it is not.
+You will notice, it is often needed to do things only *if something is like this or that* or if it is not.
 This is common to all programming and scripting languages, and most of them use the word `if` to do that.
 
 ## if
@@ -24,7 +24,7 @@ If A_IsAdmin = 1
 {% endhighlight %}
 Now this is the traditional way: no braces, the left side is **always** a variable, the right side is taken as literal string (or number).
 
-As this is only a comparison for `true`/`false` (`1`/`0` in AutoHotkey), you can leave out the second part: `if A_IsAdmin` is enough. This also applies when using expressional mode: if you want, include `A_IsAdmin` in braces. You could also do a comparison to AtuoHotkey's "constants" **true** and **false**.
+As this is only a comparison for `true`/`false` (`1`/`0` in AutoHotkey), you can leave out the second part: `if A_IsAdmin` is enough. This also applies when using expressional mode: if you want, include `A_IsAdmin` in braces. You could also do a comparison to AutoHotkey's "constants" **true** and **false**.
 
 It is often recommended to use expressional mode instead of traditional, because it is the same as in other languages, it is considered a <cite>better style</cite>, and traditional is removed in AutoHotkey v2 (and AutoHotkey\_H v2).
 
