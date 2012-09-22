@@ -1,0 +1,172 @@
+---
+title: Storing data in INI files
+layout: post
+permalink: /en/INI.html
+---
+
+# INI
+
+An INI file is a in section seperated configuration file which allows you to store different data in one or more sections.
+
+The structure of an ini file is simple:
+
+    ```ini
+    [StructureName]
+    Key1=Value1
+    Key2=Value2
+    Key3=Value3
+    
+    [StructureName2]
+    Key1=Value4
+    Key2=Value5
+    Key3=Value6
+    ```
+
+It's perfect for storing numbers or important information which the program or the script needs. It also provides a good overview.
+
+## Writing data
+As the name already says, you can use the `IniWrite` command to write values into an ini.
+The command's structure is:
+
+    ```ahk
+    IniWrite, Value, Filename, Section, Key
+    ```
+
+The value can be either a number or letters. Please note, you can not keep this empty - instead use `%A_Space%`, in case you don't want to add something.
+
+Secondly, you need to add the filepath of the ini file, so the script can add the value to it. It can be either a normal string or a variable like `%A_Desktop%\example.ini`.
+
+The section, as above already mentioned, is basically the data block's name. The script needs it to work out which key (see example) it should use because the ini file allows you to use the same key names in different sections.
+
+And finally, the key, you add it to retrieve the piece of data which you previously added to it.
+
+### An example:
+    ```ahk
+    IniWrite, Tim, %A_Desktop%\example.ini, Member1, Name
+    ```
+
+The result in the ini would look like:
+
+    ```ini
+    [Member1]
+    Name=Tim
+    ```
+
+You don't have to worry about creating the file or the section first, they are automatically created on writing if they don't yet exist.
+
+## Reading data
+Imagine, you would have a script which allows the user to add details of a person to an ini. The `IniWrite` was a good example for it.
+
+But how would you get these details to show up without opening the ini file in an editor?
+
+The `IniRead` command allows you to access it - and it isn't even complicated!
+
+The command's structure is basically as the `IniWrite` one with 2 differences: the `OutputVar` (and the `Default` - later)
+
+    ```ahk
+    IniRead, OutputVar, Filename, Section, Key [, Default]
+    ```
+
+As always, it starts with the command itself, followed by the variable where to store the ini's key's data (e.g the name of `Member1`).
+
+Then comes the file name, where it will access the ini.
+Followed by the section and the key.
+
+Let's take a look on the `IniWrite` example again:
+
+    ```ini
+    [Member1]
+    Name=Tim
+    ```
+
+How would you retrieve the string Tim?
+Already figured it out? Good.
+
+    ```ahk
+    IniRead, Name, %A_Desktop%\example.ini, Member1, Name
+    MsgBox % Name ; Will show you the name you retrieved - which will be Tim
+    ```
+
+Or you retrieve the data of the `Name` key from the second member, then it would be:
+
+    ```ahk
+    IniRead, Name, %A_Desktop%\example.ini, Member2, Name
+    ```
+
+Same key name but a different block name.
+
+### Note:
+Of course the name of the `OutputVar` doesn't have to be the same as the key name, it can be totally different.
+
+## Deleting data
+So now, the member left your community but the details about him are still in the ini file - how would you delete them? - manually? No.
+We'll, of course, use a command again.
+
+This time it's `IniDelete`. The command's structure:
+
+    ```ahk
+    IniDelete, Filename, Section [, Key]
+    ```
+
+As you already saw, the last parameter `Key` is enclosed in square brackts (`[]`). You've learned before that these indicate that the parameter enclosed by them is **optional**.
+
+Back to our example:
+
+    ```ini
+    [Member1]
+    Name=Tim
+    ```
+
+We now want to delete his name:
+
+    ```ahk
+    IniDelete, %A_Desktop%\example.ini, Member1, Name
+    ```
+
+This will only delete the `Name` key of the section `Member1`.
+To delete the whole section, we simply omit the key name:
+
+    ```ahk
+    IniDelete, %A_Desktop%\example.ini, Member1
+    ```
+
+## Full example script
+
+    ```ahk
+    ; You can even use the output of a msgbox or a control to write it into the ini.
+    ; Imagine an user inputed the age of Tim in an InputBox, we'll now use it in the command.
+    ; AgeOfTim (the variable we use for the output contains 21
+
+    IniWrite, Tim, %A_Desktop%\example.ini, Member1, Name
+    IniWrite, %AgeOfTim%, %A_Desktop%\example.ini, Member1, Age
+    IniWrite, blue, %A_Desktop%\example.ini, Member1, EyeColour
+    IniWrite, Tom, %A_Desktop%\example.ini, Member2, Name
+    IniWrite, 21, %A_Desktop%\example.ini, Member2, Age
+    IniWrite, green, %A_Desktop%\example.ini, Member2, EyeColour
+
+    ; We'll now read the ini's data
+    IniRead, Name, %A_Desktop%\example.ini, Member1, Name ; You can use the same name as the output & key name
+    ; But make sure, you use another name for the second user if you are retrieving the information at once without using them right after (example after this one)
+    IniRead, Age, %A_Desktop%\example.ini, Member1, Age
+    IniRead, EyeColour, %A_Desktop%\example.ini, Member1, EyeColour
+
+    IniRead, Name2, %A_Desktop%\example.ini, Member2, Name
+    IniRead, Age2, %A_Desktop%\example.ini, Member2, Age
+    IniRead, EyeColour2, %A_Desktop%\example.ini, Member2, EyeColour
+
+    MsgBox % "Member1: " Name
+             . "His age: " Age
+             . "His eye colour: " eyecolour
+             . "Member2: " Name2
+             . "His age: " Age2
+             . "His eye colour: " eyecolour2
+
+	; delete the database now
+    IniDelete, %A_Desktop%\example.ini, Member1
+    IniDelete, %A_Desktop%\exmaple.ini, Member2 ; ini is now emty.
+    ```
+
+In one of the comments I said, it wouldn't be smart to use the same variable to retrieve a content of 2 different blocks / sections.
+
+Let's say, the script saves "Tim" in the variable `Name` but then it goes to the second section and saves "Tom" in the same variable - what do you think does the variable Name now contain?
+Right, it contains "Tom" because it automatically overwrote the first content.
