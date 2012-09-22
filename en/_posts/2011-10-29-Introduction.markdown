@@ -74,7 +74,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [useful tools: Gui creators]()<!-- take from Coding-Environment.markdown -->
 	- [File management]()
 	- [Storing data]()
-		- [INI]()
+		- [INI](INI.html)
 		- [Registry]()
 	- [operators]()
 
