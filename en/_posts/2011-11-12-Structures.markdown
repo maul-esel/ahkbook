@@ -162,13 +162,13 @@ DllCall("MulDiv","UInt",TheAddressOfTheString,"UInt",1,"UInt",1,"Str")
 The two functions have also been backported to older versions of AutoHotkey, and are available as [libraries](http://www.autohotkey.com/forum/topic59738.html).
 
 ### structure library
-The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the builtin object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
+The AutoHotkey library [Struct](http://www.autohotkey.com/forum/topic59581.html), by HotkeyIt, allows simple and intuitive creation of structures without difficult offset or type calculations. Given an initial structure description, it creates an object that allows access of structure members with the built-in object access syntax. Recommended if there are a lot of structs to manage and the performance drop is acceptable.
 
 ## summary
 * Structures are sections of memory filled with structured data.
 * Members are specific independant parts in the data.
 * Members are accessed by their type and offset.
-* Each type almost always needs to be mapped to an AutoHotkey builtin type to be used.
+* Each type almost always needs to be mapped to an AutoHotkey built-in type to be used.
 * AutoHotkey functions that are useful when working with structures are `VarSetCapacity()`, `NumPut()`, and `NumGet()`.
 
 ## example

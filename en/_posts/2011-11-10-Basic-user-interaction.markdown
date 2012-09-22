@@ -60,7 +60,7 @@ IfMsgBox Cancel
 As with any `if` statement, you use curly braces ({ and }) to enclose larger blocks here, and you can put an `else` below it.
 
 ### Getting the user's decision \#2
-In AutoHotkey v2 and AutoHotkey\_H v2, this statement is removed. You must use a regular `if` statement and compare against the builtin variable `A_MsgBoxResult`.
+In AutoHotkey v2 and AutoHotkey\_H v2, this statement is removed. You must use a regular `if` statement and compare against the built-in variable `A_MsgBoxResult`.
 
 ### Getting the user's decision \#3
 \[missing: info on IronAHK\]

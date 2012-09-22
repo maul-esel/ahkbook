@@ -14,7 +14,7 @@ Loop
 	MsgBox Loop iteration %A_Index%
 }
 {% endhighlight %}
-As you see above, the builtin-variable `A_Index` contains the current iteration count. If you just want to repeat one line, yu can leave out the braces.
+As you see above, the built-in variable `A_Index` contains the current iteration count. If you just want to repeat one line, you can leave out the braces.
 
 As the above may consume a lot of memory, you may want it to wait some time before the next iteration:
 {% highlight ahk linenos %}; any AutoHotkey version

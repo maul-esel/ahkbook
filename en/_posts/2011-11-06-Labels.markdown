@@ -47,7 +47,7 @@ return ; goto will exit the script here
 {% endhighlight %}
 
 ## Using labels
-Besides the possibilities above, there are some ways to use labels with builtin functionality.
+Besides the possibilities above, there are some ways to use labels with built-in functionality.
 
 ### OnExit
 `OnExit` let's you specify a label name to which the script will jump to before it exits. You can put there some routines to clean up some memory, files or whatever your script used.
@@ -60,7 +60,7 @@ Also, there are some standard label names that are launched when a GUI closes et
 If you add a label named <cite>OnClipboardChange</cite> to your script, it will be launched whenever the system clipboard changes. You can retrieve the contents and modify or react on them.
 
 ### IsLabel()
-One more thing to mention is the builtin function `IsLabel()` which can be used to test if a given name (often a variable) is an existing label.
+One more thing to mention is the built-in function `IsLabel()` which can be used to test if a given name (often a variable) is an existing label.
 If you try to jump to a non-existing label, AutoHotkey will throw an error. In case you have a dynamic label name, you can use this function to avoid this error.
 
 ## spaghetti code

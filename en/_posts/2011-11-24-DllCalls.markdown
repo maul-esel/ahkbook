@@ -6,12 +6,12 @@ permalink: /en/DllCalls.html
 
 # Accessing Windows API
 ## API
-**API** is an abbreviation for <cite>application programmer interface</cite>. This means it is a way to access another app, a web service, an OS, a library etc. from your code. It does not specify *how* to do this: APIs can be based on HTTPRequests \(e.g. web services\), exchanging text files, window messages, DLLs \(dynamic link libraries\), which will be covered in this chapter, or COM \(which will be covered later\). So the way we're looking at here does of course not work for all APIs.
+**API** is an abbreviation for <cite>application programming interface</cite>. This means it is a way to access another app, a web service, an OS, a library etc. from your code. It does not specify *how* to do this: APIs can be based on HTTPRequests \(e.g. web services\), exchanging text files, window messages, DLLs \(dynamic link libraries\), which will be covered in this chapter, or COM \(which will be covered later\). So the way we're looking at here does of course not work for all APIs.
 
 ### Accessing DLLs
 The way we look at here does not only work for Windows, but for a lot of other code packaged in a DLL. Custom Gui controls often use this. But it is important to know you can't even cover all of them: the DLLs must be native code (e.g. not a .NET library), and it must be organized in *functions* (not *classes*).
 
-## Using the Windows builtin `MessageBox` function
+## Using the Windows built-in `MessageBox` function
 As you know, AutoHotkey has the `MsgBox` command. So actually theres no **need** for calling the Windows API function most of the time. But we're doing so because it's a good example.
 
 **Note:** This is, of course, Windows-only code. So it will not work for IronAHK users on other systems.
@@ -30,7 +30,7 @@ Then we see a <cite>Syntax</cite> box:
       __in      UINT uType
     );
 
-We can't use this as it's not AutoHotkey code. In AutoHotkey, to call a function in a DLL, we use the builtin `DllCall()` function. As the manual tells us, it's first parameter is the DLL file and the function to call.
+We can't use this as it's not AutoHotkey code. In AutoHotkey, to call a function in a DLL, we use the built-in `DllCall()` function. As the manual tells us, it's first parameter is the DLL file and the function to call.
 
 In case of the MessageBox function, we needn't specify the DLL file:
 > DllFile may be omitted when calling a function that resides in User32.dll, Kernel32.dll, ComCtl32.dll, or Gdi32.dll.

@@ -64,7 +64,7 @@ You can use AutoHotkey for game scripts, for quick macros, for tasks that take h
 		- [useful tools: TillaGoTo](Useful-Tools-TillaGoTo.html)
 	- [Variables, commands and function stuff](Variables-functions-commands.html)
 
-		- [the power of builtin variables](builtin-variables.html)
+		- [the power of built-in variables](builtin-variables.html)
 	- [Working with conditions](Working-with-conditions.html)
 	- [Basic User Interaction: MsgBox & Co.](Basic-user-interaction.html)
 	- [Repeating things](Repeating.html)
