@@ -130,6 +130,29 @@ To delete the whole section, we simply omit the key name:
     IniDelete, %A_Desktop%\example.ini, Member1
     ```
 
+## Tip
+
+If you do not want to store the information in a separate INI file you can use the script file itself by adding a commented section with the proper INI sections and keys.
+Use the built-in variable `A_ScriptFullPath`. Of course this will only work for uncompiled scripts.
+
+### Example
+
+    ```ahk
+	; your script
+    
+	; to read:
+    IniRead, Key1, %A_ScriptFullPath%, settings, key1
+    
+    ; to write:
+    IniWrite, %key1%, %A_ScriptFullPath%, settings, key1
+
+    /*
+    [settings]
+    key1=value
+    key2=value
+    */
+	```
+
 ## Full example script
 
     ```ahk
