@@ -24,6 +24,7 @@ Everything, every minor or major improvement / addition / suggestion is welcome!
 * [Frankie](http://aboutscript.com/blog/)
 * [nimda](https://github.com/nimdahk)
 * [Uberi](http://www.autohotkey.net/~Uberi/)
+* [aRt)Y](http://www.autohotkey.com/community/viewtopic.php?p=569164#p569164)
 
 ## Available versions
 * [english](en/Introduction.html) - *work in progress!*
