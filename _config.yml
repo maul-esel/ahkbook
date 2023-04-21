@@ -1,3 +1,3 @@
 pygments: true
-url: 'http://maul-esel.github.com/ahkbook'
+url: 'https://maul-esel.github.com/ahkbook'
 exclude: ['build']
